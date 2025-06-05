@@ -185,7 +185,7 @@ def main():
             docx_file = generate_box_labels(naam, ToegangsNmr, groups)
             st.download_button("⬇️ Download als DOCX", docx_file, file_name="doosetiketten" + ToegangsNmr + ".docx")
 
-    st.subheader("Made by Yorick de Man" + " V0.3")
+    st.markdown("###### Made by Yorick de Man" + " V0.3")
 
 if __name__ == "__main__":
     main()
