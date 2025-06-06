@@ -120,21 +120,15 @@ def create_docx_table(labels):
 def generate_box_labels(titel, nummer, groepen):
     labels = []
     for groep in groepen:
-        nummers = parse_ranges(groep)
-        if not nummers:
+        if not groep.strip():
             continue
-        eerste = nummers[0]
-        laatste = nummers[-1]
-        if eerste == laatste:
-            formatted = f"{eerste}"
-        else:
-            formatted = f"{eerste}–{laatste}"
         labels.append([
             "Stadsarchief Amsterdam",
             f"{nummer}",
             f"{titel}",
-            formatted
-        ])
+            groep.strip()  # gebruik invoer zoals gegeven
+    ])
+
     return create_docx_table(labels)
 
 def load_toegangstitels(csv_path="ToegangenLijst.csv"):
