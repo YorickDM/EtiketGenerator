@@ -97,12 +97,18 @@ def create_docx_table(labels):
                             run = para.add_run(line)
                             run.font.name = 'Arial'
                             run.font.size = Pt(10)
-                            spacing_before = 226 if i == 0 else None
-                            if i == 3 or "Inventaris" in line or i == 1:
+
+                            # Vette regels:
+                            is_toegangsnummer = i == 1
+                            is_inventarisregel = "Inventaris" in line or i == len(content) - 1
+
+                            if is_toegangsnummer or is_inventarisregel:
                                 run.bold = True
                                 run.font.size = Pt(12)
+
                             para.paragraph_format.space_after = Pt(0)
                             para.paragraph_format.line_spacing_rule = 1
+                            spacing_before = 226 if i == 0 else None
                             set_cell_spacing(para, afstand_voor=spacing_before)
                     idx += 1
 
@@ -117,19 +123,36 @@ def create_docx_table(labels):
     buffer.seek(0)
     return buffer
 
+
+def split_title(titel, max_len=36):
+    words = titel.split()
+    lines = []
+    current_line = ""
+    for word in words:
+        if len(current_line + " " + word) <= max_len:
+            current_line = (current_line + " " + word).strip()
+        else:
+            lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    return lines[:2]  # maximaal 2 regels
+
+
 def generate_box_labels(titel, nummer, groepen):
     labels = []
     for groep in groepen:
         if not groep.strip():
             continue
+        gesplitste_titel = split_title(titel)
         labels.append([
             "Stadsarchief Amsterdam",
             f"{nummer}",
-            f"{titel}",
-            groep.strip()  # gebruik invoer zoals gegeven
-    ])
-
+            *gesplitste_titel,
+            groep.strip()
+        ])
     return create_docx_table(labels)
+
 
 def load_toegangstitels(csv_path="ToegangenLijst.csv"):
     mapping = {}
