@@ -124,7 +124,7 @@ def create_docx_table(labels):
     return buffer
 
 
-def split_title(titel, max_len=30):
+def split_title(titel, max_len=35):
     words = titel.split()
     lines = []
     current_line = ""
@@ -203,10 +203,16 @@ def main():
                 inventarisnummers.extend(extra)
 
             if st.button("🎫 Genereer etiketten (.docx)"):
-                labels = [
-                    ["Stadsarchief Amsterdam", f"{toegangsnummer}", f"{titel}", f"{str(num)}"]
-                    for num in inventarisnummers
-                ]
+                labels = []
+                for num in inventarisnummers:
+                    gesplitste_titel = split_title(titel)
+                    labels.append([
+                        "Stadsarchief Amsterdam",
+                        f"{toegangsnummer}",
+                        *gesplitste_titel,
+                        f"{str(num)}"
+                    ])
+
                 docx_file = create_docx_table(labels)
                 st.download_button("⬇️ Download als DOCX", docx_file, file_name="omslagetiketten" + toegangsnummer + ".docx")
 
