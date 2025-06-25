@@ -129,7 +129,7 @@ def split_title(titel, max_len=35):
     lines = []
     current_line = ""
     for word in words:
-        if len(current_line + " " + word) <= max_len:
+        if len(current_line + " " + word) < max_len:
             current_line = (current_line + " " + word).strip()
         else:
             lines.append(current_line)
