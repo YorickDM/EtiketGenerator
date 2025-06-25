@@ -124,7 +124,7 @@ def create_docx_table(labels):
     return buffer
 
 
-def split_title(titel, max_len=36):
+def split_title(titel, max_len=35):
     words = titel.split()
     lines = []
     current_line = ""
