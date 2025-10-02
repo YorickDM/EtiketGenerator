@@ -262,6 +262,7 @@
 375,W.J.R. Dreesmann
 376,Kerkenraad Hervormde Gemeente
 377,Hervormde Gemeente: Diaconie
+378,Kerkvoogdij Hervormde Gemeente
 379,Nederlandse Hervormde Kerk Classis Amsterdam
 381,Evangelisch-Lutherse Gemeente Diakonie
 382,Familie Van Hall
@@ -2088,11 +2089,10 @@
 377A,Hervormde Gemeente: eerste aanvulling
 377A,Archief van de Hervormde Gemeente: eerste aanvulling
 377AAN,Archief van de Hervormde Gemeente: tweede aanvulling
-378A,NL. Herv. Gem. te Amsterdam Kerkvoogdij: aanvulling
-378A,Archief van de Nederlandse Hervormde Gemeente te Amsterdam Kerkvoogdij: aanvulling
+378A,Kerkvoogdij Hervormde Gemeente: aanvulling
 378AK,Archief van de Amstelkerk
 378BA,Archief van de Bachzaalgemeente
-378BC,Archief van de Nederlandse Hervormde Gemeente te Amsterdam: Bouwcommissie
+378BC,Kerkvoogdij Hervormde Gemeente: bouwcommissie
 378BTK,Archief van de Bethlehemkerk
 378EK,Archief van de Eilandskerk
 378ELT,Archief van de Elthetokerk
@@ -2110,7 +2110,7 @@
 378OZ,Archief van de Oudezijds Kapel
 378PRI,Archief van de Prinsessenkerk
 378SA,Archief van de Saronkapel
-378SCH,Archief van de Hervormde Gemeente Kerkvoogdij: stukken betreffende scholen
+378SCH,Kerkvoogdij Hervormde Gemeente: scholen
 378WEL,Archief van de Wijkvereniging Eltheto
 378WK,Archief van de Westerkerk
 378WZK,Archief van de Willem de Zwijger Kerk
@@ -2495,3 +2495,4 @@ GAW206,Fotocollectie Kelch
 GAW207,Collectie Huize Zwaanwijck fotocollectie
 GAW208,Fotocollectie Tweede Wereldoorlog gemeentearchief Weesp
 31640,Collectie de Archief Challenge
+
