@@ -184,4 +184,238 @@ def main():
     ])
 
     if option == "📁 Omslagetiketten maken":
-        multi_ui = st.toggle("Meerdere toegang_
+        multi_ui = st.toggle("Meerdere toegangen toevoegen?", value=False)
+
+        if not multi_ui:
+            if 'vorige_enkel_toegang' not in st.session_state:
+                st.session_state['vorige_enkel_toegang'] = ''
+            if 'invoer_enkel' not in st.session_state:
+                st.session_state['invoer_enkel'] = ''
+
+            toegangsnummer = st.text_input("Toegangsnummer", "")
+            if toegangsnummer != st.session_state['vorige_enkel_toegang']:
+                st.session_state['invoer_enkel'] = ''
+
+            titel_default = TOEGANGSTITELS.get(toegangsnummer.strip(), "")
+            titel = st.text_input("Archiefnaam", titel_default)
+
+            # ✅ Min inventarisnummer is nu 1 (en defaults zijn geldig)
+            van = st.number_input("Inventarisnummer vanaf", min_value=1, value=1)
+            tot = st.number_input("Inventarisnummer t/m", min_value=1, value=1)
+
+            # ✅ Voorkom lege ranges / rare input
+            if tot < van:
+                st.warning("⚠️ 'Inventarisnummer t/m' moet groter dan of gelijk zijn aan 'vanaf'.")
+                st.stop()
+
+            a_nummers_input = st.text_input("A-nummers (optioneel, bijv. 68A, 99B)", "")
+
+            inventarisnummers = [str(n) for n in range(int(van), int(tot) + 1)]
+            if a_nummers_input.strip():
+                extra = [x.strip() for x in a_nummers_input.split(',') if x.strip()]
+                inventarisnummers.extend(extra)
+
+            if st.button("🎫 Genereer etiketten (.docx)"):
+                labels = []
+                for num in inventarisnummers:
+                    gesplitste_titel = split_title(titel)
+                    labels.append([
+                        "Stadsarchief Amsterdam",
+                        f"{toegangsnummer}",
+                        *gesplitste_titel,
+                        f"{str(num)}"
+                    ])
+
+                docx_file = create_docx_table(labels)
+                st.download_button(
+                    "⬇️ Download als DOCX",
+                    docx_file,
+                    file_name="omslagetiketten" + toegangsnummer + ".docx"
+                )
+
+            st.session_state['vorige_enkel_toegang'] = toegangsnummer
+
+        else:
+            st.subheader("Meerdere toegangen invoeren")
+
+            if "omslagen" not in st.session_state:
+                st.session_state["omslagen"] = []
+
+            if "prev_omslag_toegang" not in st.session_state:
+                st.session_state["prev_omslag_toegang"] = ""
+
+            toegang_nmr = st.text_input("Toegangsnummer", "")
+
+            # ✅ Reset defaults naar geldige waarden (>= 1)
+            if toegang_nmr != st.session_state["prev_omslag_toegang"]:
+                st.session_state["van_multi"] = 1
+                st.session_state["tot_multi"] = 1
+                st.session_state["a_multi"] = ""
+                st.session_state["prev_omslag_toegang"] = toegang_nmr
+
+            toegang_titel_default = TOEGANGSTITELS.get(toegang_nmr.strip(), "")
+
+            with st.form("omslag_form"):
+                toegang_titel = st.text_input("Archiefnaam", toegang_titel_default)
+
+                # ✅ Clamp oude session_state waarden (als er nog 0 in zit van eerdere sessie)
+                van_default = max(1, int(st.session_state.get("van_multi", 1)))
+                tot_default = max(1, int(st.session_state.get("tot_multi", 1)))
+
+                van = st.number_input(
+                    "Inventarisnummer vanaf",
+                    min_value=1,
+                    value=van_default,
+                    key="van_multi"
+                )
+                tot = st.number_input(
+                    "Inventarisnummer t/m",
+                    min_value=1,
+                    value=tot_default,
+                    key="tot_multi"
+                )
+
+                # ✅ Voorkom lege ranges / rare input
+                if tot < van:
+                    st.warning("⚠️ 'Inventarisnummer t/m' moet groter dan of gelijk zijn aan 'vanaf'.")
+                    st.stop()
+
+                a_nummers_input = st.text_input(
+                    "A-nummers (optioneel, bijv. 68A, 99B)",
+                    value=st.session_state.get("a_multi", ""),
+                    key="a_multi"
+                )
+
+                toevoegen = st.form_submit_button("➕ Voeg toe aan lijst")
+
+                if toevoegen and toegang_nmr:
+                    nummers = [str(n) for n in range(int(van), int(tot) + 1)]
+                    if a_nummers_input.strip():
+                        extra = [x.strip() for x in a_nummers_input.split(',') if x.strip()]
+                        nummers.extend(extra)
+
+                    st.session_state["omslagen"].append({
+                        "toegangsnummer": toegang_nmr,
+                        "titel": toegang_titel,
+                        "nummers": nummers
+                    })
+
+            if st.session_state["omslagen"]:
+                st.write("### Toegevoegde etiketten")
+                for i, omslag in enumerate(st.session_state["omslagen"]):
+                    st.write(f"{i + 1}. {omslag['toegangsnummer']} - {omslag['titel']}: {', '.join(omslag['nummers'])}")
+
+                if st.button("🎫 Genereer alle etiketten (.docx)"):
+                    labels = []
+                    for omslag in st.session_state["omslagen"]:
+                        for num in omslag["nummers"]:
+                            labels.append([
+                                "Stadsarchief Amsterdam",
+                                omslag["toegangsnummer"],
+                                omslag["titel"],
+                                str(num)
+                            ])
+                    docx_file = create_docx_table(labels)
+                    st.download_button("⬇️ Download als DOCX", docx_file, file_name="omslagetiketten_meerdere.docx")
+
+                if st.button("🗑️ Verwijder alles"):
+                    st.session_state["omslagen"] = []
+
+    elif option == "📦 Doosetiketten maken":
+        multi_ui = st.toggle("Meerdere toegangen toevoegen?", value=False)
+
+        if not multi_ui:
+            if 'vorige_toegang' not in st.session_state:
+                st.session_state['vorige_toegang'] = ''
+            if 'invoer_veld' not in st.session_state:
+                st.session_state['invoer_veld'] = ''
+
+            ToegangsNmr = st.text_input("Toegangsnummer", "")
+            if ToegangsNmr != st.session_state['vorige_toegang']:
+                st.session_state['invoer_veld'] = ''
+
+            naam_default = TOEGANGSTITELS.get(ToegangsNmr.strip(), "")
+            naam = st.text_input("Archiefnaam", naam_default)
+
+            invoer = st.text_area(
+                "Inventarisnummers (Scheid etiketten met een nieuwe regel, gebruik ',' voor losse nummers en '-' voor reeksen)",
+                value=st.session_state.get('invoer_veld', ""),
+                key="invoer_veld"
+            )
+
+            if st.button("📦 Genereer doosetiketten (.docx)"):
+                groups = [grp.strip() for grp in invoer.strip().split("\n") if grp.strip()]
+                if not groups:
+                    st.warning("⚠️ Vul minstens één inventarisgroep in.")
+                else:
+                    docx_file = generate_box_labels(naam, ToegangsNmr, groups)
+                    st.download_button("⬇️ Download als DOCX", docx_file, file_name="doosetiketten" + ToegangsNmr + ".docx")
+
+            st.session_state['vorige_toegang'] = ToegangsNmr
+
+        else:
+            st.subheader("Meerdere toegangen invoeren")
+
+            if 'toegangen' not in st.session_state:
+                st.session_state['toegangen'] = []
+
+            if "prev_toegang_nmr" not in st.session_state:
+                st.session_state["prev_toegang_nmr"] = ""
+
+            toegang_nmr = st.text_input("Toegangsnummer", "")
+
+            if toegang_nmr != st.session_state["prev_toegang_nmr"]:
+                st.session_state["invoer_multi"] = ""
+                st.session_state["prev_toegang_nmr"] = toegang_nmr
+
+            toegang_titel_default = TOEGANGSTITELS.get(toegang_nmr.strip(), "")
+
+            with st.form(key="doosetiket_form"):
+                toegang_titel = st.text_input("Archiefnaam", toegang_titel_default)
+
+                invoer = st.text_area(
+                    "Inventarisnummers (Scheid etiketten met een nieuwe regel, gebruik ',' voor losse nummers en '-' voor reeksen)",
+                    value=st.session_state.get("invoer_multi", ""),
+                    key="invoer_multi"
+                )
+
+                toevoegen = st.form_submit_button("➕ Voeg toe aan lijst")
+
+                if toevoegen and toegang_nmr and invoer:
+                    groups = [grp.strip() for grp in invoer.strip().split("\n") if grp.strip()]
+                    st.session_state["toegangen"].append((toegang_titel, toegang_nmr, groups))
+                    del st.session_state["invoer_multi"]
+                    st.rerun()
+
+            if st.session_state['toegangen']:
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("🗑️ Lijst leegmaken"):
+                        st.session_state['toegangen'] = []
+                        st.rerun()
+                with col2:
+                    if st.button("📦 Genereer gecombineerde doosetiketten (.docx)"):
+                        alle_labels = []
+                        for titel, nummer, groepen in st.session_state['toegangen']:
+                            for groep in groepen:
+                                label = [
+                                    "Stadsarchief Amsterdam",
+                                    f"{nummer}".strip(),
+                                    f"{titel}".strip(),
+                                    f"{groep.strip()}"
+                                ]
+                                alle_labels.append(label)
+
+                        docx_file = create_docx_table(alle_labels)
+                        st.download_button("⬇️ Download gecombineerde DOCX", docx_file, file_name="doosetiketten_gecombineerd.docx")
+
+                st.markdown("### Toegevoegde etiketten")
+                for i, (titel, nummer, groepen) in enumerate(st.session_state['toegangen']):
+                    st.markdown(f"**{nummer} - {titel}**")
+                    st.markdown("<ul>" + "".join([f"<li>{g}</li>" for g in groepen]) + "</ul>", unsafe_allow_html=True)
+
+    st.markdown("##### Made by Yorick de Man" + " V0.5")
+
+
+if __name__ == "__main__":
+    main()
