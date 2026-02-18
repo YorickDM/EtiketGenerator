@@ -193,8 +193,8 @@ def main():
 
             titel_default = TOEGANGSTITELS.get(toegangsnummer.strip(), "")
             titel = st.text_input("Archiefnaam", titel_default)
-            van = st.number_input("Inventarisnummer vanaf", min_value=0, value=0)
-            tot = st.number_input("Inventarisnummer t/m", min_value=0, value=1)
+            van = st.number_input("Inventarisnummer vanaf", min_value=1, value=0)
+            tot = st.number_input("Inventarisnummer t/m", min_value=1, value=1)
             a_nummers_input = st.text_input("A-nummers (optioneel, bijv. 68A, 99B)", "")
 
             inventarisnummers = [str(n) for n in range(van, tot + 1)]
@@ -239,8 +239,8 @@ def main():
 
             with st.form("omslag_form"):
                 toegang_titel = st.text_input("Archiefnaam", toegang_titel_default)
-                van = st.number_input("Inventarisnummer vanaf", min_value=0, value=st.session_state.get("van_multi", 0), key="van_multi")
-                tot = st.number_input("Inventarisnummer t/m", min_value=0, value=st.session_state.get("tot_multi", 1), key="tot_multi")
+                van = st.number_input("Inventarisnummer vanaf", min_value=1, value=st.session_state.get("van_multi", 0), key="van_multi")
+                tot = st.number_input("Inventarisnummer t/m", min_value=1, value=st.session_state.get("tot_multi", 1), key="tot_multi")
                 a_nummers_input = st.text_input("A-nummers (optioneel, bijv. 68A, 99B)", value=st.session_state.get("a_multi", ""), key="a_multi")
 
                 toevoegen = st.form_submit_button("➕ Voeg toe aan lijst")
@@ -380,3 +380,4 @@ def main():
     
 if __name__ == "__main__":
     main()
+
