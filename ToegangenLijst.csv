@@ -273,7 +273,7 @@
 386,Gemeenschap voor Doopsgezind Broederschapswerk
 388,Hervormde Gemeente Amsterdam-West en rechtsvoorganger
 393,Vereeniging Volkszang
-394,Familie Boissevain en aanverwanten
+394,Familie Boissevain
 395,Artis
 398,Weesperkarspel en Bijlmermeer
 399,Familie Westerman
@@ -328,7 +328,7 @@
 509,Stichting Zorg en Bijstand
 511,Sint Jozef Gezellenvereniging
 512,Heeg en Köster
-513,Groote Ijpolder
+513,GrooteIJpolder
 514,
 516,Vereniging tot Weldadigheid
 517,Jan Abraham van Rijn van Alkemade
@@ -439,7 +439,7 @@
 738,Corvershof
 740,Begijnhof
 741,Johannes Kramer
-742,rchief van Dr. J.W. Ijzerman
+742,Dr. J.W. IJzerman
 743,Gereformeerde Kerk te Amsterdam-Centrum
 744,De Volharding Exploitatie Onroerende Goederen
 745,Marktwezen
@@ -477,7 +477,7 @@
 805,Ir. Lely-Lyceum
 807,Familie Kruseman
 809,Familie Marlof
-810, Familie Van Eijk en Aanverwante Families
+810, Familie Van Eijk
 811,Oudevrouwenhuis het Lam en de Toren
 812,Doopsgezind weeshuis bij het Lam en Toren
 813,Koninklijke Hollandsche Lloyd
@@ -755,7 +755,7 @@
 1381,Effectenkantoor Alsberg, Goldberg en Co.
 1382,Bredero-Herdenking 1968 en 400 jaar Bredero
 1384,Studieclub voor Oog-, Zenuw- en Oorheelkunde
-1385,Amsterdamse Ijzer- en Staalhandel Bernet&Co
+1385,Amsterdamse IJzer- en Staalhandel Bernet&Co
 1386,Bols
 1387,Olympisch Stadion
 1388,Schaakvereniging De Raadsheer
@@ -906,7 +906,7 @@
 1604,G.P. Haspels
 1606,Verzameling J. Groesbeek
 1610,C.J. Heeren
-1614,Collectie Stichting IJbeeld, foto's
+1614,Collectie StichtingIJbeeld, foto's
 1615,Collectie Oebele Boersma
 1617,Bouwmaatschappij Het Hoekje
 1619,Herinneringen Oost
@@ -1024,7 +1024,7 @@
 5129,Cie. Herziening Erfpachtstelsel
 5130,Cie. Nazien Gemeenterekeningen
 5131,Cie. Onderzoek Erfpacht
-5132,Commissie IJ- en Havenwerken
+5132,CommissieIJ- en Havenwerken
 5133,Commissie Beursgebouw
 5134,Cie. Branden in Kalverstraat en Stadsschouwburg
 5135,Commissie Taptoeschandaal
@@ -1219,7 +1219,9 @@
 10005,Collectie Kabinetfoto's
 10007,Collectie Stereofoto's
 10008,Gemeentelijke Dienst Grondbedrijf: foto's
-10009,DRO en rechtsvoorgangers: foto's
+10009,DRO: foto's
+10009A,DRO: foto's afdeling A
+10009B,DRO: foto's afdeling B
 10014,Collectie A.C.B. Heynert
 10015,Collectie C. Deenik
 10017,Collectie A.M.J. Hendrichs
@@ -1274,8 +1276,9 @@
 10105,Collectie N. Bareket
 10107,Collectie J. van Dijk
 10108,Collectie R.H. Herwig
-10109,Collectie affiches
-10114,DRO foto's van bruggen
+10109,Collectie affiches serie A
+10109B,Collectie affiches serie B
+10114,DRO: foto's van bruggen
 10116,Collectie Frits Weeda
 10118,Collectie Leenheer, Martelhoff, Jansen
 10119,Collectie Peter Alma
@@ -1287,7 +1290,7 @@
 10137,Prentbriefkaarten
 10145,Collectie Frits Lugt
 10151,BWT Gesloopte Percelen
-10155, Stadsprofielen
+10155,Stadsprofielen
 10157,Collectie J.G. Kramer
 10158,Collectie D.F. Eberhardt
 10160,Collectie Lichtbeelden Instituut
@@ -1466,7 +1469,7 @@
 30272,Collectie Kiezerslijsten
 30273,Telefoonboeken
 30274,Adresboeken
-30276,Projectbureau IJ-tram
+30276,ProjectbureauIJ-tram
 30278,Milieudienst Amsterdam
 30281,Stichting Behoud Karakter Frederiksplein
 30284,Kon. Ned. Zeil & Roeivereeniging
@@ -1509,7 +1512,7 @@
 30381,Studievereniging Machiavelli
 30382,Gezelschap van de Stille Omgang
 30384,Zwemvereniging De Meeuwen
-30389,Collectie Ontwikkeling IJ-oevers
+30389,Collectie OntwikkelingIJ-oevers
 30392,Collectie Gemeente Vervoerbedrijf: dia's tram
 30395,Familie Cnoop Koopmans
 30396,Erna en Aron Heertje-Kreijmborg
@@ -1564,7 +1567,7 @@
 30498,Schellekens' Borduur- en Plisseeratelier
 30500,P. Leibbrand
 30503,Drentse Vereniging Amsterdam
-30504,Collectie Stichting IJbeeld: films
+30504,Collectie StichtingIJbeeld: films
 30506,Vereniging tot Verspreiding van Bloemen
 30507,Herdenkingen van de SLM-ramp
 30509,Gemeente Ouder-Amstel
@@ -1853,7 +1856,7 @@
 30992,Willy La Croix
 30993,Sint Johannes de Doperkerk
 30997,Dolf Toussaint
-30999,Sint  Johannes de Doperkerk
+30999,Herman Wals
 31001,Jules Loszynski
 31002,Pieter Nieuwland College
 31005,Van Geels & Co
@@ -1922,7 +1925,7 @@
 31187,Regionaal Orgaan Amsterdam
 31188,Artis
 31190,Elly Jaffé
-31192,Stichting IJbeeld
+31192,StichtingIJbeeld
 31194,GG&GD: Sector VGZM
 31197,LFDZ
 31198,Collectie I am G en Z
@@ -1943,7 +1946,7 @@
 31234,Ouderencentrum De Coenen
 31236,Oey Tjeng Sit
 31237,N.V. de Beursdrukkerij
-31238,Projectbureau Ijburg
+31238,ProjectbureauIJburg
 31240,Vrije Universiteit: College van Directeuren
 31241,Vrije Universiteit: College van Curatoren
 31242,VUvereniging
@@ -2015,6 +2018,7 @@
 31486,ARCAM
 31497,Cephas Stauthamer en Josje Smit
 31544,Dienst Belastingen
+31559,Collectie Dikken
 31640,Collectie de Archief Challenge
 41434,Vrouwen v. Ravensbrück
 43325,test
@@ -2032,11 +2036,7 @@
 70061,Duplicaatcollectie 30504 St. IJbeeld: raadpleegex.
 70062,Duplicaatcollectie 30504 St. IJbeeld: zichtkopieën
 70064,Duplicaatcollectie 30673 Nieuw West: raadpleegex.
-309993,Sint Johannes de Doperkerk
-331182,DOW/CTA: Bouwtekeningen en Kaarten
 20181016,Voorbeeld: Hoe etiketteer je met A en B etc.
-10009A,DRO: foto's, Afd. A
-10109B,Collectie Stadsarchief Amsterdam: affiches serie B
 1054AV,Volksuniversiteit Amsterdam: audiovisueel materiaal
 1056AV,Maatschappij voor den Werkenden Stand: films
 1056FO,Vereniging Beroepsonderwijs Amsterdam en rechtsvoorgangers: foto's
@@ -2058,9 +2058,9 @@
 1392AV-1,Collectie Stadsarchief Amsterdam: algemene collectie audiovisueel materiaal
 1392AV-2,Collectie Stadsarchief Amsterdam: eigen producties audiovisueel materiaal
 1407AV,Nederlands-Israëlitisch Kerkgenootschap: video's
-172A,Familie Backer en Aanverwante Families: aanvulling
+172A,Familie Backer: aanvulling
 184FO,Familie Van Eeghen: foto's
-195A,Familie Bicker en Aanverwante Families: aanvulling
+195A,Familie Bicker: aanvulling
 202BT,R.F.G. Nieuwenhuys: bouwtekeningen
 213WYK,Evangelisch Lutherse Gemeente te Amsterdam Wijkvereniging Wijk 1
 214A,Evangelisch-Lutherse Kerk in het Koninkrijk der Nederlanden Diakonale Raad
@@ -2268,7 +2268,7 @@ GAW003,Stichting De Weesper Kring, 2003-2006
 GAW004,Verschillende organisaties op land- en tuinbouwgebied in de Vechtstreek C.B.T.B. / W.L.T.O. / L.T.B. , 1935-1995
 GAW005,Hengelaarsvereniging Weesp en de Algemene Weesper Hengelaars Bond, 1938-1969
 GAW006,Afdeling Weesp van Nederlands Volksherstel (NVH), 1945-1948
-GAW007,Weesper IJsclub Wesopa, 1963-1968 (1979)
+GAW007,WeesperIJsclub Wesopa, 1963-1968 (1979)
 GAW008,Rooms-Katholieke Middenstandsvereniging De Hanze, afdeling Weesp, 1938-1966
 GAW009,Algemene Vereniging voor Gezinsverzorging Weesp e.o., 1949-1977 (1981)) en de Stichting Oude Algemene Vereniging voor Gezinsverzorging Weesp e.o., 1981-1990 (1991), 1949-1991
 GAW010,Parochieel Ontspannings Centrum, Plaatselijk Ontspannings Centrum (POC) , 1962-1987
@@ -2496,6 +2496,7 @@ GAW205,Fotocollectie G. Hols
 GAW206,Fotocollectie Kelch
 GAW207,Collectie Huize Zwaanwijck fotocollectie
 GAW208,Fotocollectie Tweede Wereldoorlog gemeentearchief Weesp
+
 
 
 
