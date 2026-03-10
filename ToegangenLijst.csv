@@ -591,7 +591,10 @@
 1052,Tabakshandel Kluijtenaar
 1053,Aantekeningen betreffende Armeniërs
 1054,Volksuniversiteit Amsterdam
+1054AV,Volksuniversiteit Amsterdam: audiovisueel materiaal
 1056,Vereniging Beroepsonderwijs Amsterdam
+1056AV,Maatschappij voor den Werkenden Stand: films
+1056FO,Vereniging Beroepsonderwijs Amsterdam: foto's
 1057,Gemeentelijke school voor HAVO Zocherstraat
 1063,Emma Kinderziekenhuis
 1064,Gescher en Kemper
@@ -621,9 +624,12 @@
 1117,Heuwekemeijer, P.C.
 1118,Algemeene Commissie Buitenlandse Noden
 1120,Verenigde Doopsgezinde Gemeente
+1120A,Verenigde Doopsgezinde Gemeente: aanvulling
 1124,Familie Schöne
 1128,Familie Kleine
 1131,VVV Amsterdam
+1131AV,VVV Amsterdam: audiovisueel materiaal
+1131FO,VVV Amsterdam: foto's
 1132,Familie Cramer
 1136,Parochie van de Heilige Magdalena
 1140,Grand Hotel Krasnapolsky
@@ -638,8 +644,10 @@
 1155,Stichting Maatschappij-Geschiedenis
 1156,Port. Gemeente Curacao
 1157,Centraal Israëlitisch Weeshuis
-1161, Stuurgroep Meningspeiling Leidseplein
+1161,Stuurgroep Meningspeiling Leidseplein
+1161AV,Stuurgroep Meningspeiling Leidseplein: audiovisueel materiaal
 1164,A. Heijmans
+1165AV,Burger Ziekenhuis: audiovisueel materiaal
 1168,Stichting Joods Maatschappelijk Werk
 1169,Collectie voormalige Melkfabriek in Jan Steenstraat
 1179,Firma Hesseling
@@ -656,7 +664,8 @@
 1202, J.D. Koolhaas
 1206,FORAM
 1208,de Amsterdamse Kring
-1209,Stad Radio Amsterdam: geluidsdragers
+1209,Stad Radio Amsterdam
+1209AV,Radio Stad Amsterdam: geluidsdragers
 1210,Stichting Marcel Henri Bregstein
 1213,Vereniging 'De Joodse Invalide'
 1214,Rooms-Katholieke Kerk Gerardus Majell
@@ -670,14 +679,17 @@
 1229,  Stichting Dirk van   Nimwegencentrum
 1232,Amsterdams Steunpunt Wonen
 1236,M.S.B. Belinfante-Dekker
+1236AV,M.S.B. Belinfante-Dekker: geluidsdragers
 1240,Dr. I. Samkalden
 1243,Nederlands Instituut voor Arbeidsomstandigheden
 1244,Parochie OLV van Zeven Smarten
 1246,Proost en Brandt
 1248,Order of Foresters
+1248AV,Ancient Order of Foresters: films
 1250,Aktiegroep Eén School, Eén Locatie
 1251,Genootschap voor Joodse Wetenschap
 1252, J.H. Heijder en M. Heijder
+1252AV,M. Heijder: films
 1253,Amsterdamse Vereniging voor Beroepsonderwijs
 1257,S.R. de Miranda
 1258,Familie Kuiper
@@ -1697,7 +1709,7 @@
 30718,Esther Petronella d'Ailly: dagboekaantekeningen
 30720,Stichting Podium Kwakoe met rechtsvoorgangers
 30722,Amsterdams Studenten Corps ASC/AVSV
-30724, Coöperatieve Tuindersveilingsvereniging
+30724,Coöperatieve Tuindersveilingsvereniging
 30726,Buurtcentrum Het Fijnhout
 30729,Emmy Rutten-Broekman
 30730,J.A. Stofkoper: Bureau Amsterdam 700
@@ -1911,6 +1923,7 @@
 31161,Jaap Kaas
 31162,G. Mahlstedt en C.M. Sargenton
 31164,Willem Duveen
+31165,Projectorganisatie Aanleg Noord/Zuidlijn
 31166,Kees Kef
 31168,Collectie John Philips
 31171,Lafour & Wijk
@@ -1951,6 +1964,7 @@
 31241,Vrije Universiteit: College van Curatoren
 31242,VUvereniging
 31243,Vrije Universiteit: Faculteit der Godgeleerdheid
+31245,gemeente Amsterdam: Wob/Woo-besluiten
 31246,Bureau Voorlichting: foto's
 31247,Secretarie: Bestuurlijke en Juridische Zaken
 31252,Secretarie: Voorlichting en Externe Betrekkingen
@@ -1962,9 +1976,13 @@
 31279, Vereniging Limburgia
 31280,Adviesraden Minderhedenbeleid
 31284,Evangelische-Lutherse Gemeente Amstelveen
+31286,Directie Ingenieursbureau: historische bodemonderzoeken
 31289,Het Henriëtte Hofje
+31291,Stadsdeel Centrum: omgevingsvergunningen
+31292,Stadsdeel Noord: omgevingsvergunningen
 31299,Vrije Universiteit: Senaat
 31303,Bestuursdienst Amsterdam
+31304,Gemeente Amstelveen: bouw- en woningtoezichtdossiers
 31305,Collectie Herman Meerman en Chris Hahn
 31308,Majoor Bosshardt
 31310,Stichting De Eenzame Uitvaart
@@ -1979,11 +1997,13 @@
 31337,A Paper Monument for the Paperless
 31347,Hans Bosch
 31348,Collectie herdenking Peter R. de Vries
-31352,Gemeenteraad
+31352,Gemeenteraad, (1952) 1978-2001 (2002)
+31353,Gemeenteraad, 2005-2020
 31357,Pieter Perdijk
 31362,Dienst Ruimtelijke Ordening
 31363,Amsterdamse Planologische Commissie
 31371,Belangenbehartiging van Betrokkenen Bijlmerramp
+31374,College van Burgemeester en Wethouders, 2005-2019 (Andreas 1)
 31375,Gemeenteblad
 31379,Familie Camozzi
 31384,Gust de Wit
@@ -2038,19 +2058,7 @@
 70062,Duplicaatcollectie 30504 St. IJbeeld: zichtkopieën
 70064,Duplicaatcollectie 30673 Nieuw West: raadpleegex.
 20181016,Voorbeeld: Hoe etiketteer je met A en B etc.
-1054AV,Volksuniversiteit Amsterdam: audiovisueel materiaal
-1056AV,Maatschappij voor den Werkenden Stand: films
-1056FO,Vereniging Beroepsonderwijs Amsterdam en rechtsvoorgangers: foto's
-1120A,Verenigde Doopsgezinde Gemeente van Amsterdam en rechtsvoorgangers: aanvulling
-1131AV,Vereniging voor Vreemdelingenverkeer Afdeling Amsterdam: audiovisueel materiaal
-1131FO,Vereniging voor Vreemdelingenverkeer Afdeling Amsterdam: foto's
-1161AV,Archieven van de Stuurgroep Meningspeiling Leidseplein, de Sichting 'Bouw-es-wat-anders'
-1165AV,Burger Ziekenhuis: audiovisueel materiaal
-1209AV,Radio Stad Amsterdam (Stichting Amsterdamse Draadloze Omroep): geluidsdragers
 123456TEST,Sinterklaas (oefenarchief)
-1236AV,M.S.B. Belinfante-Dekker: geluidsdragers
-1248AV,Ancient Order of Foresters: films
-1252AV,M. Heijder: films
 1315BT,G.B. Salm en A. Salm GBzn.: bouwtekeningen
 1320AV,Gezelschap van de Stille Omgang te Amsterdam: audiovisueel materiaal
 1336A,Amsterdams 4 en 5 Mei Comité: aanvulling
@@ -2070,14 +2078,6 @@
 267A,Stadsschouwburg: aanvulling
 279A,Universiteit van Amsterdam College van Curatoren: aanvulling
 300A,Scheepstimmerwerf Het Kromhout en de Kromhout Motoren Fabriek D. Goedkoop Jr. N.V.
-31165A,projectorganisatie aanleg Noord/Zuidlijn en rechtsvoorgangers
-31245A,gemeente Amsterdam: Wob/Woo-besluiten
-31286A,Inventaris van het Directie Ingenieursbureau: historische bodemonderzoeken
-31291A,Stadsdeel Centrum: omgevingsvergunningen
-31292A,Stadsdeel Noord: omgevingsvergunningen
-31304A,Test archief voor de Bouw- en Woningdossiers van Gemeente Amstelveen
-31353A,Gemeenteraad, 2005-2020
-31374A,College van Burgemeester en Wethouders, 2005-2019 (Andreas 1)
 334A,Portugees-Israëlietische Gemeente: aanvulling
 334A,Portugees-Israëlietische Gemeente: aanvulling
 336NA,Zunderdorp en Nieuwendam
@@ -2497,6 +2497,7 @@ GAW205,Fotocollectie G. Hols
 GAW206,Fotocollectie Kelch
 GAW207,Collectie Huize Zwaanwijck fotocollectie
 GAW208,Fotocollectie Tweede Wereldoorlog gemeentearchief Weesp
+
 
 
 
