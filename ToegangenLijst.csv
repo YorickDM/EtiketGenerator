@@ -64,7 +64,7 @@
 93,Commissie en Commissarissen Graanhandel
 95,Larensche Kunsthandel
 96,Ten Kate Comité
-97,Riekerpolder en Rechtsvoorgangers
+97,Riekerpolder
 98,A.S. van Nierop
 99,Historische Tentoonstelling Stad Amsterdam 1925
 100,De Overbrakerbuitenpolder
@@ -97,7 +97,7 @@
 127,De Amsterdamsche Courant
 128,Gezelschap Zucht voor 't Vorstelijk Huis
 129,Stichting van een Inrichting voor Ooglijders
-130,Falckfonds Steun Genootschap Het  Leesmuseum
+130,Falckfonds Steun Genootschap Het Leesmuseum
 131,Liedertafel Euterpe
 132,Mannenkoor Eutonia
 133,Cie. Feestregeling Derde Ned. Nat. Zangersfeest
@@ -133,6 +133,7 @@
 169,Weeshuis de Oranjeappel
 170,Mobiele Sociëteit
 172,Familie Backer
+172A,Familie Backer: aanvulling
 173,Debatingclub Ons Huis
 174,Herdenking honderdsten geboortendag van dr. J.P.Heije
 175,Nationale Inspanning Welzijnsverzorging Indië
@@ -143,12 +144,14 @@
 181,Vereniging Pro Juventute
 183,Familie van de Poll
 184,P. van Eeghen
+184FO,Familie Van Eeghen: foto's
 185,Hacke van Mijnden en van Tienhoven
-188, Firma Temminck en Van Twist
+188,Firma Temminck en Van Twist
 190,Hersteld Evangelisch-Luthersche Gemeente
 191,Rooms-Katholiek Jongensweeshuis
 192,Familie Moens
 195,Familie Bicker
+195A,Familie Bicker: aanvulling
 196,Internationale Handelsvereniging
 197,Firma Woltman Elpers
 198,Zeepziederscollege
@@ -156,6 +159,7 @@
 200,Luthers Weeshuis
 201,Waalsch Hervormde Gemeente
 202,R.F.G. Nieuwenhuys
+202BT,R.F.G. Nieuwenhuys: bouwtekeningen
 203,Jan de Meyer
 204,Centraal Brouwerijkantoor
 206,Dansclubs
@@ -166,7 +170,10 @@
 211,Maatschappij tot Nut van het Algemeen
 212,Specerijen Fronenbroeck en Van Naarden
 213,Evangelisch-Lutherse Gemeente
-214, Evangelisch-Lutherse Synode
+213WYK,Evangelisch Lutherse Gemeente: Wijkvereniging Wijk 1
+214,Evangelisch-Lutherse Synode
+214A,Evangelisch-Lutherse Synode: Diakonale Raad
+214B,Vereniging Centraal Luthers Weeshuis
 215,Familie Ter Meulen
 217,Begraafplaats Rustoord te Diemerbrug
 223,C. van Rij
@@ -189,10 +196,13 @@
 248,Sloterdijkermeerpolder
 255,Familie De Clercq
 258,Marnixschool
-263,Plaatselijke Schoolcommissie en rechtsopvolger
+259A,E.C.J. Staal
+263,Plaatselijke Schoolcommissie
 265,Bestuur der Stadstekenacademie
+267A,Stadsschouwburg: aanvulling
 275,Stadsdrukkerij en Weduwenfonds
 278,Curatoren van het Athenaeum
+279A,Universiteit van Amsterdam College van Curatoren: aanvulling
 281,Universiteit Amsterdam: Rector en Assessoren
 282,Orde Hoogleeraren Athenaeum
 287,Familie Kam
@@ -216,7 +226,7 @@
 314,Cornelis Schrijver
 316,Amsterdamsche Kanaalmaatschappij
 317,Gemeente energiebedrijf: Stukken Luchtbescherming
-318,
+318,English Reformed Church
 319,Familie Sweers
 320,Jan Theunisse de Jonge
 321,Bestuur Inrichting Examineren van Varenslieden
@@ -257,21 +267,60 @@
 363,Garde Soldee
 364,Gewapende Burgerwacht
 366,Gilden en Brouwerscollege
+367A,Burgerweeshuis: oud archief
+367B,Burgerweeshuis: oud archief (appendix)
+367BP,Burgerweeshuis: oud archief (boedelpapieren)
+367C,Burgerweeshuis: nieuw archief
 368,Bank van Leening
+368A,Bank van Leening: eerste aanvulling
+368B,Bank van Leening: tweede aanvulling
+368FO,Collectie Stadsbank van Lening: foto's
 369,St.Jorishof, Leprozen-, Oude Mannen-& Vrouwengasthuis
 372,Vereniging Hulp voor Onbehuisden
 374,Familie Kruimel
 375,W.J.R. Dreesmann
 376,Kerkenraad Hervormde Gemeente
+376AV,Bijzondere Kerkenraad Commissie Tenach en Evangelie
+376M,Kerkenraad van de Nederlandse Hervormde Gemeente te Amsterdam Ministerie
 377,Hervormde Gemeente: Diaconie
+377A,Hervormde Gemeente: eerste aanvulling
+377A,Hervormde Gemeente: eerste aanvulling
+377AAN,Hervormde Gemeente: tweede aanvulling
 378,Kerkvoogdij Hervormde Gemeente
+378A,Kerkvoogdij Hervormde Gemeente: aanvulling
+378AK,Amstelkerk
+378BA,Bachzaalgemeente
+378BC,Kerkvoogdij Hervormde Gemeente: bouwcommissie
+378BTK,Bethlehemkerk
+378EK,Eilandskerk
+378ELT,Elthetokerk
+378KK,Koepelkerk
+378MAK,Maranathakerk
+378MOR,Wijkvereniging Moria
+378MUK,Muiderkerk
+378NK,Nieuwe Kerk
+378NOK,Noorderkerk
+378NZK,Nieuwezijds Kapel
+378OK,Oude Kerk
+378OOK,Oosterkerk
+378ORK,Oranjekerk
+378OVK,Overtoomkerk
+378OZ,Oudezijds Kapel
+378PRI,Prinsessenkerk
+378SA,Saronkapel
+378SCH,Kerkvoogdij Hervormde Gemeente: scholen
+378WEL,Wijkvereniging Eltheto
+378WK,Westerkerk
+378WZK,Willem de Zwijger Kerk
+378ZK,Zuiderkerk
+378ZUK,Zuidwijk Kapel
 379,Nederlandse Hervormde Kerk Classis Amsterdam
 381,Evangelisch-Lutherse Gemeente Diakonie
 382,Familie Van Hall
 383,Amsterdamse Politie Mannenkoor Euterpe
 384,Meta Kehrer
 386,Gemeenschap voor Doopsgezind Broederschapswerk
-388,Hervormde Gemeente Amsterdam-West en rechtsvoorganger
+388,Hervormde Gemeente Amsterdam-West
 393,Vereeniging Volkszang
 394,Familie Boissevain
 395,Artis
@@ -284,9 +333,9 @@
 415,Verenigde Polders
 423,Familie Allebé
 424,Bond van Volkstuinders
-425,Heemraadschap De Buikslotermeer met rechtsvoorganger
+425,Heemraadschap De Buikslotermeer
 426,Familie Hooft Graafland
-427, V.V.D. Afdeling Amsterdam
+427,V.V.D. Afdeling Amsterdam
 428,Vereenigd Beheer
 431,Stichting Amsterdam-Rijnkanaal 1952
 432,Parochie Heilige Ignatius, Zaaier
@@ -338,12 +387,12 @@
 522,Prof. Dr. W.J. Kooiman
 523,Alphonse Fermin jr. CV
 524,Hoogheemraadschap van de Watergraafsmeer
-527, Dr. P.J. Koets
+527,Dr. P.J. Koets
 532,Familie De Voogt
 534,Wijnand Fockink
 535,Faddegon en Co.
 537,Amstelhof
-538,Gem. commissie Heemkennis met rechtsvoorganger
+538,Gem. commissie Heemkennis
 539,Modemagazijnen Gebroeders Gerzon
 542,Parochie Heilige Augustinus
 549,Pakhuismeesteren van de Thee
@@ -360,7 +409,7 @@
 565C,Doopsgezinde Gemeente
 572,Pijnappel-Menso en Advocaat Mr. M.J. Pijnappel
 580,Algemene Maatschappij van Levensverzekering
-580FO,Algemene Maatschappij van Levensverzekering en Lijfrente te Amsterdam N.V. en rechtsvoorgangers: foto's
+580FO,Algemene Maatschappij van Levensverzekering en Lijfrente te Amsterdam N.V.: foto's
 581,Onderlinge Brandwaarborg Maatschappij Unitas
 582,Holland-La Plata Hypotheekbank
 583,Ontvangst en Betaalkas
@@ -377,7 +426,7 @@
 600,Firma Ketwich & Voomberg
 609,Firma H.G. TH. Crone
 610,Familie von der Crone
-611, Maatschappij tot Bevordering der Toonkunst
+611,Maatschappij tot Bevordering der Toonkunst
 612,Remonstrantse Gemeente
 620,De Roever
 621,Marmerwerken Weegwijs
@@ -398,7 +447,7 @@
 651,Amsterdamsch Petroleum-Entrepot
 653,Meekrapfabriek Mendel Bour en Co.
 654,Crommelin en Soonen, Tutein Nolthenius en De Haan
-655,P.W. Janssen en Rechtsvoorganger
+655,P.W. Janssen
 656,Commissionairs in Granen
 657,Tabakshandel Hünger en Co.
 659,Zuidvruchten en Specerijen Kirberger en Co.
@@ -477,7 +526,7 @@
 805,Ir. Lely-Lyceum
 807,Familie Kruseman
 809,Familie Marlof
-810, Familie Van Eijk
+810,Familie Van Eijk
 811,Oudevrouwenhuis het Lam en de Toren
 812,Doopsgezind weeshuis bij het Lam en Toren
 813,Koninklijke Hollandsche Lloyd
@@ -528,15 +577,18 @@
 922,Familie Luden
 923,Familie De Vries
 924,D. Dooijes
-925,Hervormde Pedagogische Akademie en rechtsvoorganger
+925,Hervormde Pedagogische Akademie
 928,Collectie Stadsarchief Amsterdam: begrafenisbriefjes
 929,Koninklijke Bijenkorf Beheer
+929AF,De Bijenkorf: affiches
+929AV,De Bijenkorf: films
+929FO,De Bijenkorf: foto's
 930,Dr. W.J. van Hoboken
 931,Dispuut Gezelschap Breero
 932,GEMMA
 935,Vereniging tot steun verwaarloosden/gevallenen
 937,Vereniging voor Doofstommenonderwijs te Amsterdam
-939,Vereniging Openbaar Onderwijs en rechtsvoorganger
+939,Vereniging Openbaar Onderwijs
 943,Directeuren Openbaar Middelbaar/Voortgezet Onderwijs
 945,Eduard van Beinumstichting
 946,Da Costa
@@ -655,13 +707,13 @@
 1181,Familie Holtzman
 1182,Stichting Behoud en Herstel Czaar Peterbuurt
 1183,Don Bosco
-1185,Amsterdamse Schoolwerktuinen en rechtsvoorgangers
+1185,Amsterdamse Schoolwerktuinen
 1186,Stichting Liberaal Joods Onderwijs
 1190,Assurantiebezorgers Wijtman, De Clercq en Warnaars
 1191,Verenigd Cargadoorskantoor
 1198,Doopsgezinde Vredesgroep
 1201,Geschiedschrijving Toonkunstenaarscentrum Queekhoven
-1202, J.D. Koolhaas
+1202,J.D. Koolhaas
 1206,FORAM
 1208,de Amsterdamse Kring
 1209,Stad Radio Amsterdam
@@ -676,7 +728,7 @@
 1226,COC Afdeling Amsterdam
 1227,Familie Boele van Hensbroek
 1228,Collegium Medicus
-1229,  Stichting Dirk van   Nimwegencentrum
+1229,Stichting Dirk van Nimwegencentrum
 1232,Amsterdams Steunpunt Wonen
 1236,M.S.B. Belinfante-Dekker
 1236AV,M.S.B. Belinfante-Dekker: geluidsdragers
@@ -688,7 +740,7 @@
 1248AV,Ancient Order of Foresters: films
 1250,Aktiegroep Eén School, Eén Locatie
 1251,Genootschap voor Joodse Wetenschap
-1252, J.H. Heijder en M. Heijder
+1252,J.H. Heijder en M. Heijder
 1252AV,M. Heijder: films
 1253,Amsterdamse Vereniging voor Beroepsonderwijs
 1257,S.R. de Miranda
@@ -727,7 +779,7 @@
 1319,Verbond van Liberaal Religieuze Joden in Nederland
 1320,Vereniging Gezelschap van de Stille Omgang
 1321,Plantage Buurtvereniging
-1323,Dienst Luchthaven Schiphol en rechtsvoorganger
+1323,Dienst Luchthaven Schiphol
 1324,St. Nederlands Instituut voor Nijverheid en Techniek
 1325,Stichting Sail Amsterdam
 1326,Parochie van de Heilige Agnes
@@ -778,7 +830,7 @@
 1395,Dr. Jan Waterink Stichting
 1396,Schade Enquête Commissie Amsterdam
 1397,Stichting Het Rembrandthuis
-1398,Amsterdamse Natuurhistorische  Raad
+1398,Amsterdamse Natuurhistorische Raad
 1399,Koninklijke Nederlandse Natuurhistorische Vereniging
 1400,Firma Mastenbroek
 1401,Amsterdamsche Brand Sociëteit
@@ -802,7 +854,7 @@
 1428,Voetbalvereniging De Meer
 1429,Prot. Christ. Stichting voor verpleging van bejaarden
 1430,Amsterdamse Museumkring van Moderne Kunsten
-1431,Centrumbank en rechtsvoorganger
+1431,Centrumbank
 1432,KVP-kring en CDA-fractie
 1433,Van Brienens Hofje De Star
 1434,ETS
@@ -834,7 +886,7 @@
 1476,Westersch-Literarisch Gezelschap V.N.I.C.A.
 1477,Familie Van Gelder de Neufville
 1479,Familie Kalff
-1480,Firma I. Goldschmidt en Zonen en rechtsopvolgers
+1480,Firma I. Goldschmidt en Zonens
 1482,Wim Polak
 1483,Architectenbureau Husslage
 1484,Van Lier
@@ -852,7 +904,7 @@
 1501,Familie Grewel
 1502,MR'70/Rutgershuis
 1503,P.G. Rueter
-1504, Familie Verrijn Stuart
+1504,Familie Verrijn Stuart
 1505,M. Goudeket en H. Goudeket-Kats
 1506,Amstel Brouwerij
 1510,Johan Polak
@@ -959,7 +1011,7 @@
 5037,Burgemeesters:octrooien Staten Holland West Friesland
 5038,Burgemeesters: resoluties van de Staten van Holland
 5039,Thesaurieren Ordinaris
-5040, Stadsfabriekambt en Stadswerken en Stadsgebouwen
+5040,Stadsfabriekambt en Stadswerken en Stadsgebouwen
 5041,Rekenkamer of College van de Rekenmeesters
 5043,Stads Belening Kamer
 5044,Thesaurieren Extraordinaris
@@ -1078,17 +1130,32 @@
 5177,Secretarie: afdeling Financiën
 5178,Secretarie: afdeling Belastingen
 5179,Commissaris over de Publieke Werken
-5180,Publieke Werken
-5181,Secretarie: afdeling Algemene Zaken
-5182,Secretarie: afdeling Militaire Zaken
-5183,Secretarie: afdeling Economische Zaken
-5184,Secretarie: afdeling Gemeentebedrijven
+5180,Secretarie Afdeling Publieke Werken
+5180A,Secretarie Afdeling Publieke Werken: aanvulling
+5180B,Secretarie Afdeling Publieke Werken: tweede aanvulling
+5180BT-1,Secretarie Afdeling Publieke Werken: bouwtekeningen
+5180BT-2,Secretarie Afdeling Publieke Werken: bouwtekeningen Woningdienst 'Zwarte mappen'
+5181,Secretarie Afdeling Algemene Zaken
+5181A,Secretarie Afdeling Algemene Zaken: aanvulling
+5181C,Secretarie Afdeling Algemene Zaken: tweede aanvulling
+5181D,Secretarie Afdeling Algemene Zaken
+5182,Secretarie Afdeling Militaire Zaken
+5182A,Secretarie Afdeling Militaire Zaken: aanvulling
+5183,Secretarie Afdeling Economische Zaken
+5184,Secretarie Afdeling Gemeentebedrijven
+5184A,Secretarie Afdeling Gemeentebedrijven: aanvulling
 5185,Bureau voor Statistiek
 5186,Afdeling Sociale Zaken
-5188,Secretarie: afdeling Levensmiddelen
-5190,Secretarie: afdeling Openbare Gezondheid
-5191,Secretarie: afdeling Onderwijs
-5192,Secretarie: afdeling Kunstzaken
+5186A,Commissie van Toezicht op de NV Waarborg en Trustmaatschappij
+5187A,Secretarie Afdeling Volkshuisvesting
+5187A,Secretarie Afdeling Volkshuisvesting en gedeponeerde archieven
+5187BT,Secretarie Afdeling Volkshuisvesting: bouwtekeningen
+5188,Secretarie Afdeling Levensmiddelen
+5190,Secretarie Afdeling Openbare Gezondheid
+5191,Secretarie Afdeling Onderwijs
+5191FO,Secretarie Afdeling Onderwijs: foto's
+5192,Secretarie Afdeling Kunstzaken
+5192A,Secretarie Afdeling Kunstzaken: Aanvulling
 5193,Bureau PPV
 5194,Dienst Gemeentelijke Personeelsvoorziening
 5195,Gemeentelijk Scheidsgerecht
@@ -1109,7 +1176,7 @@
 5240,Dienst Handelsinrichtingen
 5241,Commissie Ontwerpen Havenreglement Oosterdok
 5244,Levensmiddelenraad
-5246,Centrale Voorzieningsdienst en rechtsvoorganger
+5246,Centrale Voorzieningsdienst
 5248,Gemeentelijke Gasfabrieken
 5252,Gemeente Vervoerbedrijf
 5253,Gemeentewaterleidingen
@@ -1136,14 +1203,14 @@
 5289,Keuringsdienst van Waren
 5293,Gemeentelijke Woningdienst
 5296,Gemeentelijke Telefoondienst
-5302,Dienst Gem. Verenigingsgebouwen en rechtsvoorgangers
+5302,Dienst Gem. Verenigingsgebouwen
 5304,Gemeentelijke Accountantsdienst
 5305,Strafcommissie Taxi- en Huurautochauffeurs
 5306,Bestuurscontacten
 5311,Gem. Inspectie Lichamelijke Opvoeding
 5315,Stichting Vluchthaven
 5318,Centrale Verkeerscommissie
-5330, De Nederlandse Scheepvaartbeweging in 1778
+5330,De Nederlandse Scheepvaartbeweging in 1778
 5339,Bewegwijzering en Huisnummering Bijlmermeer
 5340,Financiën, en cie.voor Ziekenhuis en Armenverzorging
 5341,Cie. Bestrijding Geslachtsziekten
@@ -1177,8 +1244,8 @@
 5400,Gemeente Energie Bedrijf
 5401,Kunstraad
 5403,Nieuwer-Amstel/b/w/ dossiers
-5407,Palmschool en haar rechtsvoorgangers
-5408, Werkloosheidscommissies
+5407,Palmschool
+5408,Werkloosheidscommissies
 5412,Projectgroep Stadsvernieuwing Oud-West / Kinkerbuurt
 5413,Uriniorcommissie en Cie. Straatmeubilair
 5414,Inspectie Repatrieeringswerkzaamheden
@@ -1257,8 +1324,8 @@
 10042,Kaarten Topografische Dienst schaal 1:50.000
 10043,Collectie Negentiende Eeuwse Buurtatlaskaarten
 10046,Colectie SAA: Kaarten van Amsterdam schaal 1:2000
-10048, Dienst Openbare Werken 1:5.000
-10049, Kaarten Topografische Dienst 1:10.000
+10048,Dienst Openbare Werken 1:5.000
+10049,Kaarten Topografische Dienst 1:10.000
 10050,Kaarten Topografische Dienst schaal 1:25.000
 10051,Kaarten 1:25.000 uit de Bonne-serie (1866-1990)
 10053,Waterstaatskaarten NL 1:50.000
@@ -1297,7 +1364,7 @@
 10120,Collectie J.H.H. Leonhardt
 10122,Foto's eigen fotodienst
 10123,Collectie Drukvormen
-10128, Luchtfoto's
+10128,Luchtfoto's
 10131,Collectie Kerbert
 10137,Prentbriefkaarten
 10145,Collectie Frits Lugt
@@ -1587,7 +1654,7 @@
 30512,Vereniging tot Behoud van Natuurmonumenten
 30514,Stichting De Posthoorn
 30515,Educatief Centrum Interreligieuze Dialoog
-30516, Prijsvraag Herinneringen aan de Spaarndammerbuurt
+30516,Prijsvraag Herinneringen aan de Spaarndammerbuurt
 30518,Familie Splinter
 30522,Han Hoogewoud
 30524,Derde Montessorischool
@@ -1707,7 +1774,7 @@
 30716,Amsterdamse Planologische Commissie
 30717,E.C. Straatsburg
 30718,Esther Petronella d'Ailly: dagboekaantekeningen
-30720,Stichting Podium Kwakoe met rechtsvoorgangers
+30720,Stichting Podium Kwakoe
 30722,Amsterdams Studenten Corps ASC/AVSV
 30724,Coöperatieve Tuindersveilingsvereniging
 30726,Buurtcentrum Het Fijnhout
@@ -1812,7 +1879,7 @@
 30914,Zesde Montessorischool
 30917,Hans Borkent
 30918,Cor Jaring: corporalia
-30920,DMB  en rechtsvoorgangers: bodemdossiers
+30920,DMB: bodemdossiers
 30921,Gemeentelijke Accountantsdienst
 30922,Vertrouwenscie vacature burgemeester
 30923,Huize van der Woude
@@ -1973,7 +2040,7 @@
 31264,Secretarie Hoofdafdeling Bedrijven
 31267,Coronacrisis (COVID-19)
 31274,Liberaal Joodse Gemeente
-31279, Vereniging Limburgia
+31279,Vereniging Limburgia
 31280,Adviesraden Minderhedenbeleid
 31284,Evangelische-Lutherse Gemeente Amstelveen
 31286,Directie Ingenieursbureau: historische bodemonderzoeken
@@ -1989,7 +2056,7 @@
 31316,Amsterdamse Kunstraad
 31317,GGD: Bureau Alleenstaande Ouders
 31321,Familie Arink
-31323, Firma Kerkhoven & Co
+31323,Firma Kerkhoven & Co
 31331,VU. Faculteit Sociale Wetenschappen
 31332,Projectbureau Piet Heintunnel
 31333,Sophie Duparc
@@ -2067,62 +2134,11 @@
 1392AV-1,Collectie Stadsarchief Amsterdam: algemene collectie audiovisueel materiaal
 1392AV-2,Collectie Stadsarchief Amsterdam: eigen producties audiovisueel materiaal
 1407AV,Nederlands-Israëlitisch Kerkgenootschap: video's
-172A,Familie Backer: aanvulling
-184FO,Familie Van Eeghen: foto's
-195A,Familie Bicker: aanvulling
-202BT,R.F.G. Nieuwenhuys: bouwtekeningen
-213WYK,Evangelisch Lutherse Gemeente te Amsterdam Wijkvereniging Wijk 1
-214A,Evangelisch-Lutherse Kerk in het Koninkrijk der Nederlanden Diakonale Raad
-214B,Vereniging Centraal Luthers Weeshuis
-259A,E.C.J. Staal
-267A,Stadsschouwburg: aanvulling
-279A,Universiteit van Amsterdam College van Curatoren: aanvulling
 300A,Scheepstimmerwerf Het Kromhout en de Kromhout Motoren Fabriek D. Goedkoop Jr. N.V.
-334A,Portugees-Israëlietische Gemeente: aanvulling
 334A,Portugees-Israëlietische Gemeente: aanvulling
 336NA,Zunderdorp en Nieuwendam
 336NA,Gemeente Nieuwendam: nieuw archief
 351KA,Duinwater Maatschappij: kaarten
-367A, Burgerweeshuis: oud archief
-367A,Burgerweeshuis: oud archief
-367B,Burgerweeshuis: oud archief (appendix)
-367BP,Burgerweeshuis: oud archief (boedelpapieren)
-367C,Burgerweeshuis: nieuw archief
-368A,Bank van Leening: eerste aanvulling
-368B,Bank van Leening: tweede aanvulling
-368FO,Collectie van de Stadsbank van Lening: foto's
-376AV,Bijzondere Kerkenraad Commissie Tenach en Evangelie
-376M,Kerkenraad van de Nederlandse Hervormde Gemeente te Amsterdam Ministerie
-377A,Hervormde Gemeente: eerste aanvulling
-377A,Hervormde Gemeente: eerste aanvulling
-377AAN,Hervormde Gemeente: tweede aanvulling
-378A,Kerkvoogdij Hervormde Gemeente: aanvulling
-378AK,Amstelkerk
-378BA,Bachzaalgemeente
-378BC,Kerkvoogdij Hervormde Gemeente: bouwcommissie
-378BTK,Bethlehemkerk
-378EK,Eilandskerk
-378ELT,Elthetokerk
-378KK,Koepelkerk
-378MAK,Maranathakerk
-378MOR,Wijkvereniging Moria
-378MUK,Muiderkerk
-378NK,Nieuwe Kerk
-378NOK,Noorderkerk
-378NZK,Nieuwezijds Kapel
-378OK,Oude Kerk
-378OOK,Oosterkerk
-378ORK,Oranjekerk
-378OVK,Overtoomkerk
-378OZ,Oudezijds Kapel
-378PRI,Prinsessenkerk
-378SA,Saronkapel
-378SCH,Kerkvoogdij Hervormde Gemeente: scholen
-378WEL,Wijkvereniging Eltheto
-378WK,Westerkerk
-378WZK,Willem de Zwijger Kerk
-378ZK,Zuiderkerk
-378ZUK,Zuidwijk Kapel
 379A,de Nederlandse Hervormde Kerk Classis Amsterdam
 379A,Nederlandse Hervormde Kerk Classis Amsterdam Zendingscommissie Classis Amsterdam Zendingscommissie
 382AV,Mr. G. van Hall: audiovisueel materiaal
@@ -2130,10 +2146,10 @@
 395AV,Koninklijk Zoölogisch Genootschap Natura Artis Magistra: films
 395BT,Koninklijk Zoölogisch Genootschap Natura Artis Magistra: bouwtekeningen
 398KA,Gemeente Weesperkarspel: kaarten
-435AV,Parochie van de Heilige Willibrordus buiten de Veste:  audiovisueel materiaal
-458A,Commissie voor het Stadsschoon, : eerste aanvulling
-458B,Commissie voor het Stadsschoon, : tweede aanvulling
-458C,Commissie voor het Stadsschoon, : derde aanvulling
+435AV,Parochie van de Heilige Willibrordus buiten de Veste: audiovisueel materiaal
+458A,Commissie voor het Stadsschoon: eerste aanvulling
+458B,Commissie voor het Stadsschoon: tweede aanvulling
+458C,Commissie voor het Stadsschoon: derde aanvulling
 465A,Geneeskundig Bureau voor Distributie
 479A,Centrale Choleracommissie
 482A,Amsterdamsche Choleracommissie 1867
@@ -2156,23 +2172,6 @@
 509AV,Stichting Zorg en Bijstand: beeld- en geluidsmateriaal
 5177A,Secretarie, Afdeling Financiën: eerste aanvulling
 5178AV,Secretarie Afdeling Belastingen: video's
-5180A,Publieke Werken
-5180A,Secretarie Afdeling Publieke Werken: aanvulling
-5180B,Secretarie Afdeling Publieke Werken: tweede aanvulling
-5180BT-1,Secretarie Afdeling Publieke Werken: bouwtekeningen
-5180BT-2,Secretarie Afdeling Publieke Werken: bouwtekeningen Woningdienst ('Zwarte mappen')
-5181A,Secretarie Afdeling Algemene Zaken: aanvulling
-5181C,Secretarie Afdeling Algemene Zaken: tweede aanvulling
-5181D,Secretarie Afdeling Algemene Zaken
-5182A,Secretarie Afdeling Militaire Zaken: aanvulling
-5184A,Secretarie Afdeling Gemeentebedrijven: aanvulling
-5186A,Commissie van Toezicht op de NV Waarborg en Trustmaatschappij
-5187A,Secretarie: Volkshuisvesting
-5187A,Secretarie Afdeling Volkshuisvesting en gedeponeerde archieven
-5187BT,Secretarie Afdeling Volkshuisvesting: bouwtekeningen
-5191FO,Secretarie Afdeling Onderwijs: foto's
-5192A,Secretarie: afdeling Kunstzaken
-5192A,Secretarie, Afdeling Kunstzaken: Aanvulling
 5213A,Dienst der Publieke Werken: aanvulling
 5213B,Dienst der Publieke Werken: aanvulling
 5213BT,Dienst der Publieke Werken: bouwtekeningen
@@ -2205,14 +2204,14 @@
 5274AV,audiovisueel materiaal
 5274AV,Stadsreiniging: audiovisueel materiaal
 5274BT,Stadsreiniging: bouwtekeningen
-5274FO,Dienst der Stadsreiniging en rechtsopvolger: foto's en dia's
+5274FO,Dienst der Stadsreiniging: foto's en dia's
 5275FO,Veemarkt en het Abattoir: foto's
 5282A,Dienst der Was-, Schoonmaak-, Bad- en Zweminrichtingen
 5287AV,Kamer van Koophandel en Fabrieken: films
-5293A,Gemeentelijke Dienst Volkshuisvesting en rechtsvoorganger: woningkartotheek
+5293A,Gemeentelijke Dienst Volkshuisvesting: woningkartotheek
 5293FO,Gemeentelijke Woningdienst
-5293FO,Gemeentelijke Dienst Volkshuisvesting en rechtsvoorganger: glasnegatieven
-5293FO-A,Gemeentelijke Dienst Volkshuisvesting en rechtsvoorganger: foto's A-serie
+5293FO,Gemeentelijke Dienst Volkshuisvesting: glasnegatieven
+5293FO-A,Gemeentelijke Dienst Volkshuisvesting: foto's A-serie
 5293FO-B,Gemeentelijke Dienst Volkshuisvesting: foto's B-serie
 5293FO-F,Gemeentelijke Dienst Volkshuisvesting: foto's F-serie
 5304A,Gemeentelijke Accountantsdienst: aanvulling
@@ -2223,16 +2222,16 @@
 5344AV,Dienst Ruimtelijke Ordening: audiovisueel materiaal
 5344KA,Dienst PW: Stadsontwikkeling en Stadsuitbreiding
 5344KA,Dienst Ruimtelijke Ordening: kaarten
-5370A,Gemeentelijk Grondbedrijf en rechtsvoorganger: aanvulling
+5370A,Gemeentelijk Grondbedrijf: aanvulling
 5370KA,Gemeentelijk Grondbedrijf: kaarten
 5376A,Secretarie Coördinatiecommissie Ontwikkeling Zuid Oost Lob
 538FO,Collectie Gemeentelijke Commissie Heemkennis: glasnegatieven
 5400AV,Gemeente Energie Bedrijf: films
 5404AV,Amsterdamse Raad voor de Beroepskeuze: films
 5415AV,Dienst Waterbeheer en Riolering: audiovisueel materiaal
-5436FO,Commissie voor de Straatnamen en rechtsvoorgangers: foto's
-623FO,Gerrit van der Veen Scholengemeenschap en rechtsvoorganger: foto's
-635AV,Brandweer en rechtsvoorgangers: films
+5436FO,Commissie voor de Straatnamen: foto's
+623FO,Gerrit van der Veen Scholengemeenschap: foto's
+635AV,Brandweer: films
 665A,Technisch Handelsbureau J.H. van den Wall Bake
 665A,Technisch Handelsbureau J.H. van den Wall Bake
 692FO,Ir. W.A.E. van Geuns: foto's
@@ -2240,26 +2239,23 @@
 693AV-2,Stichting Koninklijk Concertgebouworkest: geluidsdragers met documentatie afkomstig van J. Geleedst
 729FO,Familie Wertheim: foto's
 733FO,C. Poel Jr.: foto's
-743A,Gereformeerde Kerk A en rechtsvoorgangers
+743A,Gereformeerde Kerk A
 743B,Gereformeerde Kerk te Amsterdam-Centrum
-743B,Gereformeerde Kerk B en rechtsvoorgangers
-743C,Gereformeerde Kerken in Nederland Classis Amsterdam en rechtsvoorgangers
-743D,Particuliere Synode van de Gereformeerde Kerk en rechtsvoorgangers
+743B,Gereformeerde Kerk B
+743C,Gereformeerde Kerken in Nederland Classis Amsterdam
+743D,Particuliere Synode van de Gereformeerde Kerk
 745AV,Dienst van het Marktwezen: films
 745FO,Dienst van het Marktwezen: foto's
 746BT,G. Schaling: bouwtekeningen
 76A,Familie De Graeff: aanvulling
 786BT,Odink, De Kimpe, Hartsuyker-Curjel: bouwtekeningen
-805FO,Ir. Lely-Lyceum en rechtsvoorganger: foto's
+805FO,Ir. Lely-Lyceum: foto's
 827AV,Vereniging Ons Huis: audiovisueel materiaal
 843A,Algemene Doopsgezinde Sociëteit: aanvulling
 843AV,Algemene Doopsgezinde Sociëteit: geluidsdragers
 888FO,Jan Weggelaar: foto's
 910AV,Koninklijke Nederlandse Roeibond: audiovisueel materiaal
-929AF,N.V. Magazijn De Bijenkorf: affiches
-929AV,N.V. Magazijn De Bijenkorf: films
-929FO,N.V. Magazijn De Bijenkorf: foto's
-939AV,Vereniging voor Openbaar Onderwijs en rechtsvoorganger: films
+939AV,Vereniging voor Openbaar Onderwijs: films
 945AV,Eduard Van Beinum Stichting: geluidsbanden, foto's en dia's
 952AV,St. Sociaal-Cultureel Wijkcentrum De Jordaan
 952AV,Stichting Sociaal-Cultureel Wijkcentrum 'de Jordaan': audiovisueel materiaal
@@ -2299,7 +2295,7 @@ GAW028-07,Broeker polder , 1812
 GAW028-08,Zuwe polder 
 GAW028-09,Kuijerpolder , 1652
 GAW028-10,Bloemendaler polder , 1676-1900
-GAW028-11,Polders  - Ongedefinieerde stukken, 1812-1813
+GAW028-11,Polders - Ongedefinieerde stukken, 1812-1813
 GAW028-12,Gilden , 1598 - 1925
 GAW028-13,Stad Weesp, charters, 1349-1809
 GAW029,Stad en gemeen, (1738) 1796-1813 (1858)
@@ -2394,7 +2390,7 @@ GAW098,Westelijke land- en tuinbouw organisatie, afdeling Gooi en Vechtstreek, 1
 GAW099,Enige Nederlandse Fietsers Bond, afdeling Weesp
 GAW100,Nederlandse Christelijke Bond van Werknemers in de Hout- en Bouwnijverheid 
 GAW101,Raad van Kerken
-GAW102,Stichting 1940-1945  landelijke vereniging onderdrukkers (stukken Boonakker)
+GAW102,Stichting 1940-1945 landelijke vereniging onderdrukkers (stukken Boonakker)
 GAW103,Stichting Nederland helpt Indië Weesp
 GAW104,Regionale Kruisvereniging Noordelijke Vechtstreek
 GAW105,Centrale Noodcommissie Helpt elkander 
@@ -2412,7 +2408,7 @@ GAW116,Seniorenraad Weesp
 GAW117,Stichting Zwemmen Weesp
 GAW118,Weesper Volks Gymnastiek Vereniging (WVGV)
 GAW119,Vogelvrienden Weesp
-GAW120-01,Vereniging tot Bevordering van Christelijk Nationaal Onderwijs  en Driemond (C.N.S.), (1820) 1869¿2000 (2006)
+GAW120-01,Vereniging tot Bevordering van Christelijk Nationaal Onderwijs en Driemond (C.N.S.), (1820) 1869¿2000 (2006)
 GAW120-02,Vereniging tot Bevordering van Christelijk Kleuteronderwijs , 1895 - 1975 (1983)
 GAW121,Kruisvereniging Weesp
 GAW122,Gemeen, (1920) 1923-1939 (1969)
@@ -2425,7 +2421,7 @@ GAW129,Collectie G.W. Dixon, Weesp, 1872-1876
 GAW130-01,Nederlandse Protestantenbond (N.P.B.), afdeling Weesp en omstreken, 1904-2010
 GAW130-02,Kerkkoor van de Nederlandse Protestantenbond, afdeling Weesp en omstreken, 1975-1997
 GAW131,Collectie aanwinsten Weesp, 1643-
-GAW132,Collectie Van Houten  / Peter van Dam
+GAW132,Collectie Van Houten / Peter van Dam
 GAW133,Weesper Toneelvereniging 'Ons Clubje', 1938-2012
 GAW134,Stichting Gezinshulp en Bejaardenzorg 'De Noordelijke Vecht' , 1978-1987
 GAW135,Doop-, trouw- en begraafboeken , 1627-1824
@@ -2497,6 +2493,7 @@ GAW205,Fotocollectie G. Hols
 GAW206,Fotocollectie Kelch
 GAW207,Collectie Huize Zwaanwijck fotocollectie
 GAW208,Fotocollectie Tweede Wereldoorlog gemeentearchief Weesp
+
 
 
 
