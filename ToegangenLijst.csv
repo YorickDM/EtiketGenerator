@@ -1,5 +1,5 @@
 ﻿toegangsnummer,titel
-5,Vereeniging Archimedes
+1,Benjamin Burlamacchi
 6,Directie Moscovische Handel
 13,Genootschap Eendracht, Deugd en Oefening
 14,Sociëteit In de Tuin Vreedelust
@@ -51,6 +51,7 @@
 71,Hoofdcommissie Ingezetenen Feestelijke Ontvangst
 75,Kunst en Wetenschap Bevorderende Maatschappij
 76,Familie De Graeff
+76A,Familie De Graeff: aanvulling
 78,Dir. Oosterse Handel en Rederijen
 80,Familie Hartkamp
 84,Vereniging Kindervoeding
@@ -431,6 +432,7 @@
 620,De Roever
 621,Marmerwerken Weegwijs
 623,Gerrit van der Veen Scholengemeenschap
+623FO,Gerrit van der Veen Scholengemeenschap: foto's
 625,Handelsdrukkerij Holdert & Co.
 628,Stichting Het Amsterdamse Luchtbeschermingsfonds
 629,Wering van Schoolverzuim in Resort V te Amsterdam
@@ -456,6 +458,8 @@
 659,Zuidvruchten en Specerijen Kirberger en Co.
 661,Commissiehandel E.J. Potgieter
 664,V.A . Sijbouts
+665,Handelmaatschappij N.V.
+665A,Technisch Handelsbureau J.H. van den Wall Bake
 666,Makelaardij in Specerijen W.F. Westerman & Co.
 667,Wed. C.H. Fischer en Zoon
 668,Bouwmaatschappij Concordia
@@ -473,7 +477,10 @@
 689,A. Oznowicz
 691,Memoriemeesters Oude St. Nicolaaskerk
 692,Ir. W.A.E. van Geuns
+692FO,Ir. W.A.E. van Geuns: foto's
 693,Nederlandse Orkeststichting
+693AV-1,Stichting Koninklijk Concertgebouworkest: geluidsdragers N.P.H. Steffen
+693AV-2,Stichting Koninklijk Concertgebouworkest: geluidsdragers J. Geleedst
 697,Maatschappij tot Redding van Drenkelingen
 698,Jhr. H. Teding van Berkhout
 700,Anslo Hofje
@@ -485,6 +492,8 @@
 715,Vereeniging Eigen Hulp
 728,Familie Dedel
 729,Familie Wertheim
+729FO,Familie Wertheim: foto's
+733FO,C. Poel Jr.: foto's
 734,Boldoot - van Vlijmen
 735,Firma Hope & Co
 736,Mr. Dr. Benno J. Stokvis
@@ -492,10 +501,17 @@
 740,Begijnhof
 741,Johannes Kramer
 742,Dr. J.W. IJzerman
-743,Gereformeerde Kerk te Amsterdam-Centrum
+743,Gereformeerde Kerk: Amsterdam-Centrum
+743A,Gereformeerde Kerk A
+743B,Gereformeerde Kerk B
+743C,Gereformeerde Kerk: Classis Amsterdam
+743D,Gereformeerde Kerk: Particuliere Synode
 744,De Volharding Exploitatie Onroerende Goederen
-745,Marktwezen
+745,Dienst van het Marktwezen
+745AV,Dienst van het Marktwezen: films
+745FO,Dienst van het Marktwezen: foto's
 746,G. Schaling
+746BT,G. Schaling: bouwtekeningen
 747,Burger Oude-Vrouwenhuis Gesticht Vredenburgh
 748,Associatie-Cassa
 750,Vereeniging Amsterdamsche Wijkverpleging
@@ -518,6 +534,7 @@
 778,Boek-, Kantoorboek- en Papierhandel J. Vlieger
 779,Familie Waller
 783,Schilderspatroonsvereniging 'Amsterdam'
+786BT,Odink, De Kimpe, Hartsuyker-Curjel: bouwtekeningen
 788,Familie Teixeira d'Andrade
 792,Restauratiecommissie Nieuwe Kerk
 793,Nederlandse Hervormde Gemeente te Amsterdam-Sloten
@@ -527,6 +544,7 @@
 801,Cargadoors Vinke & Co.
 802,Studentenvereniging, Human. Grondslag Socrates
 805,Ir. Lely-Lyceum
+805FO,Ir. Lely-Lyceum: foto's
 807,Familie Kruseman
 809,Familie Marlof
 810,Familie Van Eijk
@@ -541,11 +559,14 @@
 821,Stichting Amsterdam Promotion
 823,Amsterdamse Federatie van Woningcorporaties
 827,Vereniging Ons Huis
+827AV,Vereniging Ons Huis: audiovisueel materiaal
 831,Koperslagerij Julius Baller en Zoon
 834,Heineken
 835,Stichting Elisabeth Otter-Knoll
 838,Nederlandse Bond Maarten Luther Afdeling Amsterdam
-843,ADS
+843,Algemene Doopsgezinde Sociëteit
+843A,Algemene Doopsgezinde Sociëteit: aanvulling
+843AV,Algemene Doopsgezinde Sociëteit: geluidsdragers
 844,Familie Ruhe
 846, Stichting Het Amsterdamsche Fonds
 847,Woningbouwverereniging De Dageraad
@@ -562,6 +583,7 @@
 883,Dr. S. Hart
 885,Centraal Toneel
 888,Jan Weggelaar
+888FO,Jan Weggelaar: foto's
 890,Vereniging voor Jongeren Union
 892,Gereformeerde kerk van Diemen-Watergraafsmeer-Bijlmer
 893,Amsterdamse Mij. en Levensverzekering 'Amstleven'
@@ -575,6 +597,7 @@
 907,Centraal Genootschap voor Kinderherstellingsoorden
 909,Fotokopieën
 910,Koninklijke Nederlandse Roeibond
+910AV,Koninklijke Nederlandse Roeibond: audiovisueel materiaal
 911,Familie Witsen Elias
 913,Kamerkring Chr.-Historische Unie Oud A'dam & Centrum
 922,Familie Luden
@@ -592,11 +615,15 @@
 935,Vereniging tot steun verwaarloosden/gevallenen
 937,Vereniging voor Doofstommenonderwijs te Amsterdam
 939,Vereniging Openbaar Onderwijs
+939AV,Vereniging voor Openbaar Onderwijs: films
 943,Directeuren Openbaar Middelbaar/Voortgezet Onderwijs
-945,Eduard van Beinumstichting
+945,Eduard van Beinum Stichting
+945AV,Eduard Van Beinum Stichting: geluidsbanden, foto's en dia's
 946,Da Costa
 949,Kweekschool v.d. Zeevaart
 950,Koninklijke Oratorium Vereniging
+952,Wijkcentrum De Jordaan
+952AV,Wijkcentrum De Jordaan: audiovisueel materiaal
 953,Koning Willemshuis
 954,Nederlandse Vereniging voor Montessori-Onderwijs
 955,Stichting Experimentele Werkbemiddeling
@@ -777,10 +804,12 @@
 1312,Liberaal Joodse Gemeente
 1313,Van Moppes Diamonds
 1315,G.B. Salm en A. Salm Gbzn.
+1315BT,G.B. Salm en A. Salm GBzn.: bouwtekeningen
 1317,Vereniging Amsterdam City
 1318,Impresariaat Het Concertbureau
 1319,Verbond van Liberaal Religieuze Joden in Nederland
-1320,Vereniging Gezelschap van de Stille Omgang
+1320,Vereniging Gezelschap Stille Omgang
+1320AV,Vereniging Gezelschap Stille Omgang: audiovisueel materiaal
 1321,Plantage Buurtvereniging
 1323,Dienst Luchthaven Schiphol
 1324,St. Nederlands Instituut voor Nijverheid en Techniek
@@ -795,6 +824,7 @@
 1333,Voorlichtingssocieteit Amsterdam
 1334,Collectie truus Trompert
 1335,G. Neervoort
+1336A,Amsterdams 4 en 5 Mei Comité: aanvulling
 1338,Industrieele Maatschappij
 1340,Scholengemeenschap Berlage
 1341,Goudstikker-Halban
@@ -813,6 +843,7 @@
 1359,Firma S.H. Reiss
 1363,Stichting Audiovisuele Manifestaties (SAM)
 1365,Stichting Ziekenomroep RANO
+1365AV,Stichting Ziekenomroep RANO: audiovisueel materiaal
 1366,A.F.C. Ajax
 1369,Desi von Saher-von Halban
 1371,Stichting Erefonds voor Oud-Verpleegsters
@@ -828,6 +859,8 @@
 1388,Schaakvereniging De Raadsheer
 1389,Bruikleen Ontvangen Stukken van Rijksarchief Haarlem
 1390,De Blindenpenning
+1392AV-1,Algemene collectie audiovisueel materiaal
+1392AV-2,Eigen producties audiovisueel materiaal
 1393,Studentendispuut W.I.T.I.A.N.
 1394,A.M. Dellemijn
 1395,Dr. Jan Waterink Stichting
@@ -840,6 +873,7 @@
 1405,Woningbouwvereniging Het Oosten
 1406,Bond van Amsterdamse Zangverenigingen
 1407,Nederlands Israëlitisch Kerkgenootschap
+1407AV,Nederlands-Israëlitisch Kerkgenootschap: video's
 1408,Carolina Eitje
 1411,Bouwvereniging Rochdale
 1412,Nederlands Israelitisch Seminarium
@@ -1208,17 +1242,31 @@
 5296,Gemeentelijke Telefoondienst
 5302,Dienst Gem. Verenigingsgebouwen
 5304,Gemeentelijke Accountantsdienst
+5304A,Gemeentelijke Accountantsdienst: aanvulling
+
+
+
+
+
+538FO,Collectie Gemeentelijke Commissie Heemkennis: glasnegatieven
+
 5305,Strafcommissie Taxi- en Huurautochauffeurs
-5306,Bestuurscontacten
+5306,Secretarie: Afdeling Bestuurscontacten
+5306A,Secretarie: Bureau Bestuurscontacten
 5311,Gem. Inspectie Lichamelijke Opvoeding
 5315,Stichting Vluchthaven
 5318,Centrale Verkeerscommissie
+5320A,Secretarie: Afdeling Jeugdzaken en Sport
+5320B,Secretarie: Afdeling Jeugdzaken en Volksontwikkeling
 5330,De Nederlandse Scheepvaartbeweging in 1778
 5339,Bewegwijzering en Huisnummering Bijlmermeer
 5340,Financiën, en cie.voor Ziekenhuis en Armenverzorging
 5341,Cie. Bestrijding Geslachtsziekten
 5342,Commissie Entgemeenschap Amsterdam
 5343,Cie. Behoefte Onderzoek Ziekenhuisruimte
+5344,Dienst Publieke Werken: Sector Stadsontwikkeling en Stadsuitbreiding
+5344AV,Dienst Ruimtelijke Ordening: audiovisueel materiaal
+5344KA,Dienst Ruimtelijke Ordening: kaarten
 5345,Dienst Bescherming Bevolking
 5348,Economische Patiëntenplaatsing Gemeenteziekenhuizen
 5349,Cie. Advies Archiefordening Diensten en Bedrijven
@@ -1238,20 +1286,26 @@
 5367,Dienst voor de Sport: personeelsdossiers
 5368,Gemeentelijk Bureau voor de Bouwnijverheid
 5370,Grondbedrijf
+5370A,Grondbedrijf: aanvulling
+5370KA,Grondbedrijf: kaarten
 5371,Commissie Rioleering en Waterverversching
-5376,Coördinatiecie. Ontwikkeling Zuid Oost Lob
+5376,Coördinatiecommissie Ontwikkeling Zuid Oost Lob
+5376A,Secretarie: Coördinatiecommissie Ontwikkeling Zuid Oost Lob
 5383,40e Penning over Verkoop van Schepen
 5384,Collectie S. Hart: impost, verpondingen, belastingen
 5394,Eigendomsbewijzen
 5399,UvA: subfaculteit Biologie
 5400,Gemeente Energie Bedrijf
+5400AV,Gemeente Energie Bedrijf: films
 5401,Kunstraad
-5403,Nieuwer-Amstel/b/w/ dossiers
+5403,Gemeente Nieuwer-Amstel: bouw- en woningtoezichtdossiers
+5404AV,Amsterdamse Raad voor de Beroepskeuze: films
 5407,Palmschool
 5408,Werkloosheidscommissies
 5412,Projectgroep Stadsvernieuwing Oud-West / Kinkerbuurt
 5413,Uriniorcommissie en Cie. Straatmeubilair
 5414,Inspectie Repatrieeringswerkzaamheden
+5415AV,Dienst Waterbeheer en Riolering: audiovisueel materiaal
 5416,Bevolkingsregister
 5417,Bevolkingsregister: Woningboeken
 5418,Dienst Musea voor Moderne Kunsten, afdeling B.K.B.
@@ -1264,6 +1318,7 @@
 5432,Burgerlijke Stand gemeente Sloten
 5435,Burgerlijke Stand Weesperkarspel
 5436,Straatnamencommissie
+5436FO,Commissie voor de Straatnamen: foto's
 5437,Oltazam
 5438,Burgerlijke Stand van de Gemeente Schellingwoude DTB
 5441,Monumenten subsidies Tekeningen
@@ -2095,6 +2150,7 @@
 31425,Stichting Drugspastoraat
 31429,Stichting Magenta
 31430,Familie Gebhard
+31434,Collectie monument Vrouwen van Ravensbrück
 31444,Amsterdams Comite vluchtelingenjaar
 31445,het Fontainehofje
 31447,Prins Bernhard Cultuurfonds
@@ -2107,14 +2163,11 @@
 31474,Kledingwinkel De Mof
 31486,ARCAM
 31497,Cephas Stauthamer en Josje Smit
+31513,Collectie Erik Willems
 31544,Dienst Belastingen
 31559,Collectie Dikken
 31640,Collectie de Archief Challenge
 31656,Welzijnsvereniging Bangsa Jawa
-41434,Vrouwen v. Ravensbrück
-43325,test
-50000,GAWO43-01
-50001,Weesp Bodemonderzoeken
 70047,Migranten Televisie
 70050,Duplicaatcollectie 20009: dvd's
 70051,Duplicaatcollectie 20009: digi beta's
@@ -2127,16 +2180,9 @@
 70061,Duplicaatcollectie 30504 St. IJbeeld: raadpleegex.
 70062,Duplicaatcollectie 30504 St. IJbeeld: zichtkopieën
 70064,Duplicaatcollectie 30673 Nieuw West: raadpleegex.
+80000,Inkomende bruiklenen
 20181016,Voorbeeld: Hoe etiketteer je met A en B etc.
 123456TEST,Sinterklaas (oefenarchief)
-1315BT,G.B. Salm en A. Salm GBzn.: bouwtekeningen
-1320AV,Gezelschap van de Stille Omgang te Amsterdam: audiovisueel materiaal
-1336A,Amsterdams 4 en 5 Mei Comité: aanvulling
-1365AV,Stichting Ziekenomroep RANO: audiovisueel materiaal
-1392AV-1,Algemene collectie audiovisueel materiaal
-1392AV-1,Collectie Stadsarchief Amsterdam: algemene collectie audiovisueel materiaal
-1392AV-2,Collectie Stadsarchief Amsterdam: eigen producties audiovisueel materiaal
-1407AV,Nederlands-Israëlitisch Kerkgenootschap: video's
 300A,Scheepstimmerwerf Het Kromhout en de Kromhout Motoren Fabriek D. Goedkoop Jr. N.V.
 334A,Portugees-Israëlietische Gemeente: aanvulling
 336NA,Zunderdorp en Nieuwendam
@@ -2217,51 +2263,6 @@
 5293FO-A,Gemeentelijke Dienst Volkshuisvesting: foto's A-serie
 5293FO-B,Gemeentelijke Dienst Volkshuisvesting: foto's B-serie
 5293FO-F,Gemeentelijke Dienst Volkshuisvesting: foto's F-serie
-5304A,Gemeentelijke Accountantsdienst: aanvulling
-5306A,Secretarie Bureau Bestuurscontacten
-5320A,Secretarie Afdeling Jeugdzaken en Sport
-5320B,Secretarie: afdeling Jeugdzaken en Volksontwikkeling
-5320B,Secretarie Afdeling Jeugdzaken en Volksontwikkeling
-5344AV,Dienst Ruimtelijke Ordening: audiovisueel materiaal
-5344KA,Dienst PW: Stadsontwikkeling en Stadsuitbreiding
-5344KA,Dienst Ruimtelijke Ordening: kaarten
-5370A,Gemeentelijk Grondbedrijf: aanvulling
-5370KA,Gemeentelijk Grondbedrijf: kaarten
-5376A,Secretarie Coördinatiecommissie Ontwikkeling Zuid Oost Lob
-538FO,Collectie Gemeentelijke Commissie Heemkennis: glasnegatieven
-5400AV,Gemeente Energie Bedrijf: films
-5404AV,Amsterdamse Raad voor de Beroepskeuze: films
-5415AV,Dienst Waterbeheer en Riolering: audiovisueel materiaal
-5436FO,Commissie voor de Straatnamen: foto's
-623FO,Gerrit van der Veen Scholengemeenschap: foto's
-635AV,Brandweer: films
-665A,Technisch Handelsbureau J.H. van den Wall Bake
-665A,Technisch Handelsbureau J.H. van den Wall Bake
-692FO,Ir. W.A.E. van Geuns: foto's
-693AV-1,Stichting Koninklijk Concertgebouworkest: geluidsdragers afkomstig van N.P.H. Steffen
-693AV-2,Stichting Koninklijk Concertgebouworkest: geluidsdragers met documentatie afkomstig van J. Geleedst
-729FO,Familie Wertheim: foto's
-733FO,C. Poel Jr.: foto's
-743A,Gereformeerde Kerk A
-743B,Gereformeerde Kerk te Amsterdam-Centrum
-743B,Gereformeerde Kerk B
-743C,Gereformeerde Kerken in Nederland Classis Amsterdam
-743D,Particuliere Synode van de Gereformeerde Kerk
-745AV,Dienst van het Marktwezen: films
-745FO,Dienst van het Marktwezen: foto's
-746BT,G. Schaling: bouwtekeningen
-76A,Familie De Graeff: aanvulling
-786BT,Odink, De Kimpe, Hartsuyker-Curjel: bouwtekeningen
-805FO,Ir. Lely-Lyceum: foto's
-827AV,Vereniging Ons Huis: audiovisueel materiaal
-843A,Algemene Doopsgezinde Sociëteit: aanvulling
-843AV,Algemene Doopsgezinde Sociëteit: geluidsdragers
-888FO,Jan Weggelaar: foto's
-910AV,Koninklijke Nederlandse Roeibond: audiovisueel materiaal
-939AV,Vereniging voor Openbaar Onderwijs: films
-945AV,Eduard Van Beinum Stichting: geluidsbanden, foto's en dia's
-952AV,St. Sociaal-Cultureel Wijkcentrum De Jordaan
-952AV,Stichting Sociaal-Cultureel Wijkcentrum 'de Jordaan': audiovisueel materiaal
 GAW001,Commissarissen van het Zandpad tussen Amsterdam, Weesp en 's Graveland, 1637-1929 (1939)
 GAW002,Rederijkerskamer Demosthenes, Weesp, 1754-1867
 GAW003,Stichting De Weesper Kring, 2003-2006
