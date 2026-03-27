@@ -55,7 +55,7 @@
 78,Dir. Oosterse Handel en Rederijen
 80,Familie Hartkamp
 84,Vereniging Kindervoeding
-85,
+85,Liquidatiecommissie der Zomersociëteit Zorgvlied en Harmonica
 86,Stadsadvocaten Antonius Pibo
 87,Commissie voor de Historische Tentoonstelling
 88,Familie Brants
@@ -376,6 +376,7 @@
 506,De Collegiantenkas
 508,Hervormde Gemeente te Durgerdam
 509,Stichting Zorg en Bijstand
+509AV,Stichting Zorg en Bijstand: beeld- en geluidsmateriaal
 511,Sint Jozef Gezellenvereniging
 512,Heeg en Köster
 513,GrooteIJpolder
@@ -1165,8 +1166,10 @@
 5174,Algemene Secretarie en Arbeidszaken
 5175,Pensioenbureau
 5176,Burgerlijke Stand en Bevolkingsregister
-5177,Secretarie: afdeling Financiën
+5177,Secretarie Afdeling Financiën
+5177A,Secretarie Afdeling Financiën: eerste aanvulling
 5178,Secretarie: afdeling Belastingen
+5178AV,Secretarie Afdeling Belastingen: video's
 5179,Commissaris over de Publieke Werken
 5180,Secretarie Afdeling Publieke Werken
 5180A,Secretarie Afdeling Publieke Werken: aanvulling
@@ -1200,26 +1203,47 @@
 5199,Centrale Commissie voor Georganiseerd Overleg
 5202,Cie. van Beroep ex. art. 70 Ambtenarenreglement
 5213,Dienst der Publieke Werken
+5213A,Dienst der Publieke Werken: aanvulling
+5213B,Dienst der Publieke Werken: aanvulling
+5213BT,Dienst der Publieke Werken: bouwtekeningen
+5213FO,Publieke Werken Afdeling Bestratingen: foto's
 5214,Stadsingenieur
 5216,Commissie Bouw Nieuw Stadhuis en Juries prijsvragen
 5217,Commissies van Onderzoek Paleis-Raadhuis Kwestie
 5220,Rooimeesters, later Bouwopzichters
+5221BT,Dienst Bouw- en Woningtoezicht: bouwtekeningen
+5221FO-1,Dienst Bouw- en Woningtoezicht: foto's
+5221FO-2,Dienst Bouw- en Woningtoezicht Afdeling Reclametoezicht: foto's
 5223,Gemeentelijk Bureau voor de Wederopbouw
 5225,Gemeentepolitie
+5225A,Gemeentepolitie
+5225AV,Politie: films
+5225FO,Politie: foto's
 5227,Luchtbeschermingsdienst
 5229,Gemeentelijk Bureau Inkwartiering
 5231,Bureau Loonbetaling
 5236,Gemeente Arbeidsbeurs
 5238,Gemeente Girokantoor
+5238AV,Gemeente Girokantoor: films
 5240,Dienst Handelsinrichtingen
 5241,Commissie Ontwerpen Havenreglement Oosterdok
 5244,Levensmiddelenraad
 5246,Centrale Voorzieningsdienst
 5248,Gemeentelijke Gasfabrieken
 5252,Gemeente Vervoerbedrijf
+5252A,Gemeente Vervoerbedrijf Afdeling Veren
+5252B,Gemeentevervoerbedrijf: tweede aanvulling
 5253,Gemeentewaterleidingen
+5253B,Gemeentewaterleidingen: aanvulling
+5253BT,Gemeentewaterleidingen: bouwtekeningen
+5253FO,Gemeentewaterleidingen: foto's
 5254,Cie. van Advies inzake de Handelsbetrekkingen
 5256,Gemeentelijke Sociale Dienst
+5256A,Gemeentelijke Sociale Dienst: cliëntendossiers Algemene Bijstandswet
+5256AV,Gemeentelijke Sociale Dienst: films
+5256B,Gemeentelijke Sociale Dienst: cliëntendossiers Beeldende Kunstenaars Regeling
+5256C,Gemeentelijke Sociale Dienst: cliëntendossiers Algemeen Maatschappelijk Werk
+5256D,Federatie van Instellingen voor Kinderbescherming: cliëntendossiers
 5257,Distributiebureau en de Distributiedienst
 5259,Tijdelijk Gemeentelijk Lompenbedrijf
 5261,Cie. Advies Broodbakkersbedrijf
@@ -1227,19 +1251,36 @@
 5264,Cie. van Toezicht Inrichting voor Stadsbestedelingen
 5265,Commissie Volkstuinen
 5266,Plaatselijk Schoolmelk Comité
-5267,GG&GD
+5267,Gemeentelijke Geneeskundige en Gezondheidsdienst
+5267A,GG&D cliëntendossiers Jeugdpsychiatrie (JP)
+5267AV,Gemeentelijke Geneeskundige en Gezondheidsdienst: films
+5267B,GG&D cliëntendossiers Volwassenen en Acute Psychiatrie (VAP)
+5267C,GG&D cliëntendossiers Psychogeriatrie (PG)
+5267D,GG&D cliëntendossiers Sociaal Pedagogisch Bureau (SPB)
 5268,Gemeenteziekenhuizen
+5268FO,Gemeenteziekenhuizen: foto's Wilhelmina Gasthuis
 5269,Gezondheidscomissie
+5274AV,Stadsreiniging: audiovisueel materiaal
+5274BT,Stadsreiniging: bouwtekeningen
+5274FO,Dienst der Stadsreiniging: foto's en dia's
 5275,Veemarkt en het Abattoir
+5275FO,Veemarkt en het Abattoir: foto's
 5276,Gemeentelijke Archiefdienst
 5278,Bezuinigingscie. Bezuinigingen Stadsschouwburg
 5279,Toneelcie. Toestandverbetering Toneel
 5280,Cie. Onderzoek Plannen Amsterdamse Groote Schouwburg
 5281,Cie.Vakopleiding Jeugdige Arbeiders
-5282,Dienst Was-, Schoonmaak-, Bad- en Zweminrichtingen
+5282,Dienst der Gemeentelijke Was- en Schoonmaak, Bad- en Zweminrichtingen
+5282A,Dienst der Was-, Schoonmaak-, Bad- en Zweminrichtingen
 5287,Kamer van Koophandel en Fabrieken voor Amsterdam
+5287AV,Kamer van Koophandel en Fabrieken: films
 5289,Keuringsdienst van Waren
 5293,Gemeentelijke Woningdienst
+5293A,Gemeentelijke Dienst Volkshuisvesting: woningkartotheek
+5293FO,Gemeentelijke Dienst Volkshuisvesting: glasnegatieven
+5293FO-A,Gemeentelijke Dienst Volkshuisvesting: foto's A-serie
+5293FO-B,Gemeentelijke Dienst Volkshuisvesting: foto's B-serie
+5293FO-F,Gemeentelijke Dienst Volkshuisvesting: foto's F-serie
 5296,Gemeentelijke Telefoondienst
 5302,Dienst Gem. Verenigingsgebouwen
 5304,Gemeentelijke Accountantsdienst
@@ -2213,51 +2254,6 @@
 5076SLO,Notarissen ter Standplaats Sloten
 5076WGM,Notarissen ter Standplaats Watergraafsmeer
 5079KA,Gemeenteraad: kaarten
-509AV,Stichting Zorg en Bijstand: beeld- en geluidsmateriaal
-5177A,Secretarie, Afdeling Financiën: eerste aanvulling
-5178AV,Secretarie Afdeling Belastingen: video's
-5213A,Dienst der Publieke Werken: aanvulling
-5213B,Dienst der Publieke Werken: aanvulling
-5213BT,Dienst der Publieke Werken: bouwtekeningen
-5213FO,Dienst der Publieke Werken Afdeling Bestratingen: foto's
-5221.FO-1,Dienst BWT: foto's
-5221BT,Dienst Bouw- en Woningtoezicht: bouwtekeningen
-5221FO-1,Dienst Bouw- en Woningtoezicht: foto's
-5221FO-2,Dienst Bouw- en Woningtoezicht Afdeling Reclametoezicht: foto's
-5225A,Gemeentepolitie
-5225AV,Politie: films
-5225FO,Politie: foto's
-5238AV,Gemeente Girokantoor: films
-5252A,Gemeente Vervoerbedrijf Afdeling Veren
-5252B,Gemeentevervoerbedrijf: tweede aanvulling
-5253B,Gemeentewaterleidingen: aanvulling
-5253BT,Gemeentewaterleidingen: bouwtekeningen
-5253FO,Gemeentewaterleidingen: foto's
-5256A,Gemeentelijke Sociale Dienst: cliëntendossiers Algemene Bijstandswet
-5256AV,Gemeentelijke Sociale Dienst: films
-5256B,Gemeentelijke Sociale Dienst: cliëntendossiers Beeldende Kunstenaars Regeling
-5256C,Gemeentelijke Sociale Dienst: cliëntendossiers Algemeen Maatschappelijk Werk
-5256D,Federatie van Instellingen voor Kinderbescherming: cliëntendossiers
-5267A,Gemeentelijke Geneeskundige en Gezondheidsdienst: cliëntendossiers Jeugdpsychiatrie (JP)
-5267AV,GG&GD
-5267AV,Gemeentelijke Geneeskundige en Gezondheidsdienst: films
-5267B,Gemeentelijke Geneeskundige en Gezondheidsdienst: cliëntendossiers Volwassenen en Acute Psychiatrie (VAP)
-5267C,Gemeentelijke Geneeskundige en Gezondheidsdienst: cliëntendossiers Psychogeriatrie (PG)
-5267D,Gemeentelijke Geneeskundige en Gezondheidsdienst: cliëntendossiers Sociaal Pedagogisch Bureau (SPB)
-5268FO,Gemeenteziekenhuizen: foto's Wilhelmina Gasthuis
-5274AV,audiovisueel materiaal
-5274AV,Stadsreiniging: audiovisueel materiaal
-5274BT,Stadsreiniging: bouwtekeningen
-5274FO,Dienst der Stadsreiniging: foto's en dia's
-5275FO,Veemarkt en het Abattoir: foto's
-5282A,Dienst der Was-, Schoonmaak-, Bad- en Zweminrichtingen
-5287AV,Kamer van Koophandel en Fabrieken: films
-5293A,Gemeentelijke Dienst Volkshuisvesting: woningkartotheek
-5293FO,Gemeentelijke Woningdienst
-5293FO,Gemeentelijke Dienst Volkshuisvesting: glasnegatieven
-5293FO-A,Gemeentelijke Dienst Volkshuisvesting: foto's A-serie
-5293FO-B,Gemeentelijke Dienst Volkshuisvesting: foto's B-serie
-5293FO-F,Gemeentelijke Dienst Volkshuisvesting: foto's F-serie
 GAW001,Commissarissen van het Zandpad tussen Amsterdam, Weesp en 's Graveland, 1637-1929 (1939)
 GAW002,Rederijkerskamer Demosthenes, Weesp, 1754-1867
 GAW003,Stichting De Weesper Kring, 2003-2006
